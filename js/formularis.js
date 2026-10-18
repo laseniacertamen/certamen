@@ -17,6 +17,8 @@ function canviaIdioma(idioma) {
     const clau = element.dataset.f;
     if (textos[clau]) element.textContent = textos[clau];
   });
+  const privacitatInscripcio = document.querySelector('#registration-form [data-f="privacyConsent"]');
+  if (privacitatInscripcio && textos.registrationPrivacyConsent) privacitatInscripcio.textContent = textos.registrationPrivacyConsent;
   document.querySelectorAll('[data-lang]').forEach(boto =>
     boto.setAttribute('aria-pressed', String(boto.dataset.lang === idiomaActual)));
   try { localStorage.setItem('certamen-lang', idiomaActual); } catch (_) {}
@@ -24,7 +26,10 @@ function canviaIdioma(idioma) {
 
 // El formulari d'inscripció està ocult fora de termini. L'endpoint és obligatori.
 const inscripcio = document.querySelector('#registration-form');
-if (inscripcio && CONFIG.inscripcionsObertes && CONFIG.inscripcionsEndpoint) {
+// Control de termini en hora de la Sénia (Europe/Madrid). També requereix endpoint configurat.
+const ara = Date.now();
+const dinsTermini = ara >= Date.parse('2026-10-19T00:00:00+02:00') && ara < Date.parse('2026-12-31T12:00:00+01:00');
+if (inscripcio && dinsTermini && CONFIG.inscripcionsObertes && CONFIG.inscripcionsEndpoint) {
   inscripcio.hidden = false;
   document.querySelector('#registration-closed').hidden = true;
 }
@@ -66,6 +71,7 @@ async function enviaFormulari(formulari, endpoint) {
       mode: 'no-cors'
     });
 
+    // no-cors retorna una resposta opaca: no es pot verificar la recepció al servidor.
     estat.textContent = formTranslations[idiomaActual].confirmation;
     formulari.reset();
   } catch (error) {
