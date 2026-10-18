@@ -1586,3 +1586,12 @@ footer>*  {
   .social-header { margin-left:auto; gap:2px; }
   .social-header .social-link { width:30px; height:30px; }
 }
+
+/* Ocultem el camp antispam fora de la pantalla. */
+.camp-antispam {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
