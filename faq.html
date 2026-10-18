@@ -262,7 +262,7 @@ Abans del 29 de gener de 2027: fotografies de banda i director, historial i curr
 <h2 data-faq="ctaTitle">
      No has trobat la resposta que buscaves?
     </h2>
-<p class="faq-bases-link"><a class="btn secondary" data-faq="basesDownload" href="Bases-XIX-Certamen-2027-ca.pdf" download>Descarrega les bases del Certamen ↓</a></p>
+<p class="faq-bases-link"><a class="btn secondary" data-faq="basesDownload" href="doc/Bases-XIX-Certamen-2027-ca.pdf" download>Descarrega les bases del Certamen ↓</a></p>
 <p data-faq="ctaText">
      Contacta amb nosaltres i t’ajudarem a resoldre qualsevol dubte sobre la participació al Certamen.
     </p>
@@ -292,8 +292,8 @@ Abans del 29 de gener de 2027: fotografies de banda i director, historial i curr
 (function(){
  function sync(){let lang='ca';try{lang=localStorage.getItem('certamen-lang')||localStorage.getItem('certamenLang')||'ca'}catch(e){}
  if(!['ca','es','gl','pt','en'].includes(lang))lang='ca';
- const a=document.querySelector('[data-faq="basesDownload"]');if(a){a.href='Bases-XIX-Certamen-2027-'+lang+'.pdf';a.download='Bases-XIX-Certamen-2027-'+lang+'.pdf';}}
- document.addEventListener('DOMContentLoaded',()=>{sync();document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setTimeout(()=>{let a=document.querySelector('[data-faq="basesDownload"]');if(a){let lang=b.dataset.lang;if(['ca','es','gl','pt','en'].includes(lang)){a.href='Bases-XIX-Certamen-2027-'+lang+'.pdf';a.download='Bases-XIX-Certamen-2027-'+lang+'.pdf'}}},0)));});
+ const a=document.querySelector('[data-faq="basesDownload"]');if(a){a.href='doc/Bases-XIX-Certamen-2027-'+lang+'.pdf';a.download='Bases-XIX-Certamen-2027-'+lang+'.pdf';}}
+ document.addEventListener('DOMContentLoaded',()=>{sync();document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setTimeout(()=>{let a=document.querySelector('[data-faq="basesDownload"]');if(a){let lang=b.dataset.lang;if(['ca','es','gl','pt','en'].includes(lang)){a.href='doc/Bases-XIX-Certamen-2027-'+lang+'.pdf';a.download='Bases-XIX-Certamen-2027-'+lang+'.pdf'}}},0)));});
 })();
 </script></body>
 </html>

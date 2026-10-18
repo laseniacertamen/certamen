@@ -55,7 +55,7 @@ function updateRulesPDF(lang) {
   const valid = ['ca', 'es', 'gl', 'pt', 'en'];
   const selected = valid.includes(lang) ? lang : 'ca';
   document.querySelectorAll('a.edition-2027-download, a[data-faq="basesDownload"]').forEach(link => {
-    link.href = 'Bases-XIX-Certamen-2027-' + selected + '.pdf';
+    link.href = 'doc/Bases-XIX-Certamen-2027-' + selected + '.pdf';
     link.setAttribute('download', 'Bases-XIX-Certamen-2027-' + selected + '.pdf');
   });
 }
