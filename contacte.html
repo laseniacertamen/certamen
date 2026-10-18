@@ -69,6 +69,7 @@
 <label class="form-field"><span data-f="email">Correu electrònic</span><input type="email" name="email" required autocomplete="email"></label>
 <label class="form-field"><span data-f="band">Banda o entitat (opcional)</span><input type="text" name="band"></label>
 <label class="form-field"><span data-f="message">Missatge</span><textarea name="message" rows="6" required></textarea></label>
+<p class="form-hint" data-privacy-notice="contact"></p>
 <label class="form-check"><input type="checkbox" name="privacy" required><span data-f="privacyConsent">He llegit la política de privacitat i accepto el tractament de les dades per respondre la consulta.</span></label>
 <p class="form-hint"><a href="politica-privacitat.html" data-f="privacyTitle">Política de privacitat</a></p>
 <button class="btn primary" type="submit" data-f="sendInfo">Envia la consulta</button>
@@ -81,5 +82,21 @@
   </footer>
 <script src="js/idiomes.js"></script>
 
+
+<script>
+// Primera capa informativa multilingüe, independent de l'enviament dels formularis.
+(function () {
+const notices = {"ca":["Responsable: Agrupació Musical Senienca (G43213099).","Finalitat: respondre la consulta.","Finalitat: gestionar la sol·licitud de participació.","Base jurídica: gestió de la sol·licitud i, quan correspongui, interès legítim.","Dades gestionades mitjançant serveis de Google; cal verificar-ne les garanties contractuals i les transferències internacionals.","Drets: info@certamen.cat. Més informació a la política de privacitat.","He llegit la informació sobre protecció de dades."],"es":["Responsable: Agrupació Musical Senienca (G43213099).","Finalidad: responder a la consulta.","Finalidad: gestionar la solicitud de participación.","Base jurídica: gestión de la solicitud y, cuando corresponda, interés legítimo.","Datos gestionados mediante servicios de Google; deben verificarse sus garantías contractuales y transferencias internacionales.","Derechos: info@certamen.cat. Más información en la política de privacidad.","He leído la información sobre protección de datos."],"gl":["Responsable: Agrupació Musical Senienca (G43213099).","Finalidade: responder á consulta.","Finalidade: xestionar a solicitude de participación.","Base xurídica: xestión da solicitude e, cando corresponda, interese lexítimo.","Datos xestionados mediante servizos de Google; cómpre verificar as garantías contractuais e as transferencias internacionais.","Dereitos: info@certamen.cat. Máis información na política de privacidade.","Lin a información sobre protección de datos."],"pt":["Responsável: Agrupació Musical Senienca (G43213099).","Finalidade: responder ao pedido.","Finalidade: gerir a candidatura.","Fundamento jurídico: gestão do pedido e, quando aplicável, interesse legítimo.","Dados tratados através dos serviços Google; as garantias contratuais e transferências internacionais devem ser verificadas.","Direitos: info@certamen.cat. Mais informações na política de privacidade.","Li a informação sobre proteção de dados."],"en":["Controller: Agrupació Musical Senienca (G43213099).","Purpose: respond to your enquiry.","Purpose: manage your application.","Legal basis: handling the request and, where applicable, legitimate interests.","Data is handled using Google services; contractual safeguards and international transfers require verification.","Rights: info@certamen.cat. See the privacy policy for details.","I have read the data protection information."]};
+function renderNotice() {
+  const lang = (function(){try{return localStorage.getItem('certamen-lang') || localStorage.getItem('certamenLang') || 'ca';}catch(e){return 'ca';}})();
+  const n = notices[lang] || notices.ca;
+  document.querySelectorAll('[data-privacy-notice]').forEach(el => {
+    const registration = el.dataset.privacyNotice === 'registration';
+    el.innerHTML = '<strong>'+n[0]+'</strong> '+(registration?n[2]:n[1])+' '+n[3]+' '+n[4]+' '+n[5];
+  });
+}
+document.addEventListener('DOMContentLoaded', function () { renderNotice(); document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', function () { setTimeout(renderNotice, 0); })); });
+})();
+</script>
 </body>
 </html>
