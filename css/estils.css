@@ -1571,3 +1571,18 @@ footer>*  {
 .edition-2027-download:hover { color: #d6ad54; }
 .faq-cta .faq-bases-link { margin: 1rem 0 .65rem; }
 .faq-cta .faq-bases-link a { display: inline-flex; text-decoration: none; }
+
+
+/* Xarxes socials: icones comunes a la capçalera i al peu. */
+.social-links { display:flex; align-items:center; justify-content:center; gap:8px; }
+.social-link { display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:50%; color:inherit; transition:background-color .2s,transform .2s; }
+.social-link:hover { background:rgba(128,128,128,.22); transform:translateY(-2px); }
+.social-link:focus-visible { outline:2px solid var(--yellow); outline-offset:3px; }
+.social-header { margin-left:auto; flex-shrink:0; }
+.social-footer { display:flex; align-items:center; gap:12px; flex-wrap:wrap; justify-content:center; margin:12px 0; }
+.social-footer-label { font-size:.9rem; font-weight:600; }
+@media (max-width:850px) {
+  .header { flex-wrap:wrap; }
+  .social-header { margin-left:auto; gap:2px; }
+  .social-header .social-link { width:30px; height:30px; }
+}
