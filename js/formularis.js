@@ -1,7 +1,7 @@
 /* CONFIGURACIÓ: canvia aquests valors quan tingueu el servei de formularis. */
 const CONFIG = {
   // Exemple de servei: URL real de l'endpoint de recepció del formulari de contacte.
-  contacteEndpoint: 'https://script.google.com/macros/s/AKfycby9FrwShLTUE-LHcMXyDNl1i-leyWwvuvpyC_w0QIBiRfCI3IahzRSYBNf1ntayWBErYA/exec',
+  contacteEndpoint: 'https://script.google.com/macros/s/AKfycbySoz6lhYhnOJfHNR3miRkXsvDOZ8t5WkDd75phHBjUSGqiTxVLXnVYZNC2h8m25rCMSg/exec',
   // Endpoint DIFERENT per a les inscripcions, per separar els dos correus.
   inscripcionsEndpoint: '',
   // Activa-ho només dins el termini oficial i després de configurar l'endpoint.
