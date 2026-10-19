@@ -36,6 +36,10 @@ const translations = {
     resultsText:'Consulta els resultats oficials i els reconeixements de les edicions del Certamen.',
     historyTitle:'Una història que continua sonant.',
     historyText:'Un espai per descobrir les bandes participants i els moments de les edicions anteriors.',
+    historyComingTitle:'Nuestra historia, edición a edición',
+    historyComingText:'Estamos trabajando para recuperar y compartir la historia del Certamen Internacional de Bandas de Música «Vila de la Sénia». Próximamente, este espacio se irá ampliando con información, fotografías y recuerdos de ediciones anteriores, para poner en valor la trayectoria del Certamen y de todas las bandas que han formado parte de él.',
+    historyComingTitle:'La nostra història, edició a edició',
+    historyComingText:'Estem treballant per recuperar i compartir la història del Certamen Internacional de Bandes de Música «Vila de la Sénia». Properament, aquest espai s’anirà ampliant amb informació, fotografies i records de les edicions anteriors, per posar en valor la trajectòria del Certamen i de totes les bandes que n’han format part.',
     newsTitle:'Segueix el ritme del Certamen.',
     newsText:'Aquí trobaràs les novetats i els anuncis de les pròximes edicions.',
     footer:'Certamen Internacional de Bandes de Música Vila de la Sénia'
@@ -108,6 +112,8 @@ const translations = {
     resultsText:'Explore official results and awards from past editions of the contest.',
     historyTitle:'A history that keeps playing.',
     historyText:'Discover participating bands and memorable moments from previous editions.',
+    historyComingTitle:'Our history, edition by edition',
+    historyComingText:'We are working to preserve and share the history of the Vila de la Sénia International Wind Band Competition. This section will soon be expanded with information, photographs and memories from previous editions, celebrating the Competition’s history and all the bands that have taken part.',
     newsTitle:'Stay in tune with the contest.',
     newsText:'Find news and announcements about upcoming editions here.',
     footer:'Vila de la Sénia International Wind Band Competition'
@@ -131,6 +137,8 @@ const translations = {
     resultsText:'Consulta os resultados oficiais e os prémios das edições do Certame.',
     historyTitle:'Uma história que continua a soar.',
     historyText:'Um espaço para descobrir as bandas participantes e os momentos das edições anteriores.',
+    historyComingTitle:'A nossa história, edição após edição',
+    historyComingText:'Estamos a trabalhar para recuperar e partilhar a história do Certame Internacional de Bandas de Música «Vila de la Sénia». Em breve, este espaço será ampliado com informações, fotografias e memórias das edições anteriores, valorizando o percurso do Certame e de todas as bandas que nele participaram.',
     newsTitle:'Acompanha o ritmo do Certame.',
     newsText:'Aqui encontrarás as novidades e os anúncios das próximas edições.',
     footer:'Certame Internacional de Bandas de Música Vila de la Sénia'
@@ -154,6 +162,8 @@ const translations = {
     resultsText:'Consulta os resultados oficiais e os recoñecementos das edicións do Certame.',
     historyTitle:'Unha historia que segue soando.',
     historyText:'Un espazo para descubrir as bandas participantes e os momentos das edicións anteriores.',
+    historyComingTitle:'A nosa historia, edición a edición',
+    historyComingText:'Estamos a traballar para recuperar e compartir a historia do Certame Internacional de Bandas de Música «Vila de la Sénia». Proximamente, este espazo irase ampliando con información, fotografías e lembranzas das edicións anteriores, para poñer en valor a traxectoria do Certame e de todas as bandas que formaron parte del.',
     newsTitle:'Segue o ritmo do Certame.',
     newsText:'Aquí atoparás as novidades e os anuncios das próximas edicións.',
     footer:'Certame Internacional de Bandas de Música Vila de la Sénia'
