@@ -98,6 +98,29 @@
 </div>
 </div>
 </section>
+<section class="territory-section" aria-labelledby="map-title">
+<h2 id="map-title">On se celebra el Certamen?</h2>
+<p>Casa de Cultura de la Sénia. Per protegir la teua privacitat, el mapa de Google només es carrega si ho autoritzes.</p>
+<div id="venue-map" style="background:#15171c;color:white;padding:24px;border-radius:12px;text-align:center">
+<button id="load-venue-map" type="button" style="background:#a52b2b;color:white;border:0;border-radius:6px;padding:14px 24px;cursor:pointer">Carregar el mapa</button>
+</div>
+<p><a href="https://www.google.com/maps/search/?api=1&amp;query=Casa%20de%20Cultura%20de%20la%20S%C3%A9nia" target="_blank" rel="noopener noreferrer">Com arribar-hi ↗</a></p>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const button = document.getElementById('load-venue-map');
+  button.addEventListener('click', function () {
+    const frame = document.createElement('iframe');
+    frame.title = 'Casa de Cultura de la Sénia — Google Maps';
+    frame.src = 'https://www.google.com/maps?q=Casa%20de%20Cultura%20de%20la%20S%C3%A9nia&z=16&output=embed';
+    frame.width = '100%';
+    frame.height = '380';
+    frame.style.border = '0';
+    frame.loading = 'lazy';
+    button.parentElement.replaceChildren(frame);
+  });
+});
+</script>
 <section class="territory-section">
 <p class="eyebrow red" data-t="seniaEyebrow">
      DESCOBREIX LA SÉNIA
