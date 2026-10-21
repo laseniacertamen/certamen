@@ -5,6 +5,10 @@
 // Edit the text for each language here.
 const translations = {
   ca: {
+    mandatoryWorksTitle:"Obres obligades",
+    mandatoryWorksIntro:"Les bandes participants podran escollir una de les obres següents:",
+    publisherLabel:"Editorial",
+    listenWork:"Escoltar l’obra",
     menu:'Menú',
     contest:'El certamen',
     participation:'Participació',
@@ -45,6 +49,10 @@ const translations = {
     footer:'Certamen Internacional de Bandes de Música Vila de la Sénia'
   },
   es: {
+    mandatoryWorksTitle:"Obras obligadas",
+    mandatoryWorksIntro:"Las bandas participantes podrán elegir una de las siguientes obras:",
+    publisherLabel:"Editorial",
+    listenWork:"Escuchar la obra",
     menu:'Menú',
     contest:'El certamen',
     participation:'Participación',
@@ -81,6 +89,10 @@ const translations = {
     footer:'Certamen Internacional de Bandas de Música Vila de la Sénia'
   },
   en: {
+    mandatoryWorksTitle:"Compulsory works",
+    mandatoryWorksIntro:"Participating bands may choose one of the following works:",
+    publisherLabel:"Publisher",
+    listenWork:"Listen to the work",
     menu:'Menu',
     contest:'The contest',
     participation:'Participation',
@@ -119,6 +131,10 @@ const translations = {
     footer:'Vila de la Sénia International Wind Band Competition'
   }
   ,pt: {
+    mandatoryWorksTitle:"Obras obrigatórias",
+    mandatoryWorksIntro:"As bandas participantes poderão escolher uma das seguintes obras:",
+    publisherLabel:"Editora",
+    listenWork:"Ouvir a obra",
     menu:'Menu', contest:'O certame', participation:'Participação', program:'Programa',
     results:'Resultados', history:'História', news:'Notícias', faq:'Perguntas frequentes', territory:'La Sénia e o território',
     eyebrow:'LA SÉNIA · CATALUNHA', heroTitle:'A música move-nos.',
@@ -144,6 +160,10 @@ const translations = {
     footer:'Certame Internacional de Bandas de Música Vila de la Sénia'
   },
   gl: {
+    mandatoryWorksTitle:"Obras obrigatorias",
+    mandatoryWorksIntro:"As bandas participantes poderán escoller unha das seguintes obras:",
+    publisherLabel:"Editorial",
+    listenWork:"Escoitar a obra",
     menu:'Menú', contest:'O certame', participation:'Participación', program:'Programa',
     results:'Resultados', history:'Historia', news:'Actualidade', faq:'Preguntas frecuentes', territory:'La Sénia y el territorio',
     eyebrow:'LA SÉNIA · CATALUÑA', heroTitle:'A música móvenos.',
