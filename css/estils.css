@@ -1616,3 +1616,21 @@ footer>*  {
 .venue-location .venue-map-intro{color:#fff;margin:0;line-height:1.5}
 .venue-location .venue-map-directions{display:inline-block}
 .venue-location p:last-child{margin:0}
+
+/* Capçalera mòbil: marca, menú i idiomes a la primera fila;
+   xarxes socials a la segona, alineades a la dreta. */
+@media (max-width: 650px) {
+  .header { flex-wrap: wrap; column-gap: 8px; row-gap: 4px; }
+  .header .brand { order: 1; }
+  .header .menu-toggle { order: 2; margin-left: auto; }
+  .header .langs { order: 3; width: 58px; flex: 0 0 58px; margin-left: 0; }
+  .header .social-header {
+    order: 4;
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-end;
+    gap: 4px;
+  }
+  .header .nav { order: 5; }
+  .header .langs[open] .lang-menu { right: 0; left: auto; }
+}
