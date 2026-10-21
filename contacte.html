@@ -68,6 +68,8 @@
 <h1 data-f="infoTitle">Demana informació</h1>
 <p data-f="infoIntro">Tens algun dubte? Escriu-nos i et respondrem per correu electrònic.</p>
 <form class="certamen-form" id="contact-form">
+<!-- Camp trampa antibots: invisible per als visitants -->
+<div aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden"><label for="contact-website">Deixa aquest camp buit</label><input id="contact-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
 <label class="form-field"><span data-f="name">Nom i cognoms</span><input type="text" name="name" required autocomplete="name"></label>
 <label class="form-field"><span data-f="email">Correu electrònic</span><input type="email" name="email" required autocomplete="email"></label>
 <label class="form-field"><span data-f="band">Banda o entitat (opcional)</span><input type="text" name="band"></label>
