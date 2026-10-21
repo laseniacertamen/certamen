@@ -135,11 +135,14 @@ async function enviaFormulari(formulari, endpoint) {
     }
 
     if (formulari.id === 'contact-form') {
+      const website = dades.get('website') || '';
       const nom = dades.get('name') || '';
       const banda = dades.get('band') || '';
       const missatge = dades.get('message') || '';
 
       dades = new FormData();
+      dades.append('website', website);
+      dades.append('form_timestamp', String(iniciContacte));
       dades.append('nom', nom);
       dades.append('email', formulari.elements.email.value);
       dades.append('assumpte', banda ? 'Consulta web - ' + banda : 'Consulta web');
@@ -194,6 +197,9 @@ catch (error) {
 }
 
 const contacte = document.querySelector('#contact-form');
+// Moment en què es mostra el formulari (no el moment de l'enviament).
+let iniciContacte = Date.now();
+window.addEventListener('pageshow', () => { iniciContacte = Date.now(); });
 if (contacte) contacte.addEventListener('submit', event => {
   event.preventDefault();
   if (contacte.reportValidity()) enviaFormulari(contacte, CONFIG.contacteEndpoint);
