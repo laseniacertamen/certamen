@@ -299,7 +299,22 @@
           ]
         ]
       }
-    ]
+    ],
+    "concert": {
+      "banda": "Orquestra de Vents Filharmonia del País Valencià",
+      "directors": [
+        "José Rafael Pascual-Vilaplana",
+        "Johan de Meij",
+        "Eugene Migliaro Corporon"
+      ]
+    },
+    "titol_gravacions": {
+      "ca": "Concert de l’Orquestra de Vents Filharmonia",
+      "es": "Concierto de la Orquesta de Vientos Filharmonia",
+      "gl": "Concerto da Orquestra de Ventos Filharmonia",
+      "pt": "Concerto da Orquestra de Sopros Filharmonia",
+      "en": "Concert by the Filharmonia Wind Orchestra"
+    }
   },
   {
     "numero": 4,
