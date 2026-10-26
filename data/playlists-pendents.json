@@ -1,75 +1,75 @@
 {
-  "nota": "Llistes aportades per l'organització. No associar a edicions fins a verificar el contingut.",
+  "nota": "Correspondència d'edicions confirmada per l'organització: I–V i X–XIV; VI–IX sense vídeos. Identitats de bandes encara pendents de contrast.",
   "playlists": [
     {
       "ordre_rebut": 1,
       "playlist_id": "PLUgXOJSLLT40",
       "video_id": "xijP_99Hji4",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 1,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 2,
       "playlist_id": "PLB7-0HCZmejc",
       "video_id": "uvS3D-YlTeI",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 2,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 3,
       "playlist_id": "PLRbOth7-bXd0",
       "video_id": "j3ypLSYsd5Q",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 3,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 4,
       "playlist_id": "PLGq7wQBrEbWU",
       "video_id": "tnMH5u9bpxU",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 4,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 5,
       "playlist_id": "PLLJi5vNmkDxo",
       "video_id": "w-8sxQVuV28",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 5,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 6,
       "playlist_id": "PLOzm5vinbxSkR5R21LqwgU0ITDlq9y7Oa",
       "video_id": "-mCSHQGnrbg",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 10,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 7,
       "playlist_id": "PLOzm5vinbxSmy8zrsKiN0gPlGdNdUcHda",
       "video_id": "f6jH_Lk5yrM",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 11,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 8,
       "playlist_id": "PLOzm5vinbxSnmggLhjlvbMqk7tt4UeF-Y",
       "video_id": "q5y4_t80dNw",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 12,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 9,
       "playlist_id": "PLOzm5vinbxSkgJvGuDxN7-GwnTsSXzOAW",
       "video_id": "EUiYEbMeVwM",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 13,
+      "estat": "assignada_per_ordre_confirmat"
     },
     {
       "ordre_rebut": 10,
       "playlist_id": "PLOzm5vinbxSlRG_bQoQc-7jMUA8J2l-Ek",
       "video_id": "hFlIi5lWLWw",
-      "edicio": null,
-      "estat": "pendent_de_verificar"
+      "edicio": 14,
+      "estat": "assignada_per_ordre_confirmat"
     }
   ]
 }
