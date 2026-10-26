@@ -221,11 +221,85 @@
     "gravacions": [
       {
         "video_id": "j3ypLSYsd5Q",
-        "banda": null,
-        "obra": null
+        "obra": "Te Deum",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "eFaIgufPAKQ",
+        "obra": "Dutch Masters Suite",
+        "compositor": "Johan de Meij",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "sxXGKwdsReI",
+        "obra": "La Fanciulla del West",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "RtYV2KT7h6Q",
+        "obra": "Edgar",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "bh8r9tscZDM",
+        "obra": "La Tregenda",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
       }
     ],
-    "dates": "18, 19 i 25 d’abril de 2009"
+    "dates": "18, 19 i 25 d’abril de 2009",
+    "jurat": [
+      "Johan de Meij",
+      "Alex Schillings",
+      "Eugene Migliaro Corporon"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Centre Instructiu Musical Santa Cecília de Yátova",
+            "José Francisco Sánchez Iborra"
+          ],
+          [
+            "Banda Municipal de Música d’Alcanar",
+            "Pascual Arnau Beltrán"
+          ],
+          [
+            "Associação Banda 25 de Março de Podence",
+            "Bruno Pinto"
+          ]
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          [
+            "Societat Artística Musical de Castellnovo",
+            "Ricardo Bolós Pérez"
+          ],
+          [
+            "Sociedade Filarmónica Gualdim Pais de Tomar",
+            "Hermenegildo Campos"
+          ],
+          [
+            "Agrupació Musical Vila de Càlig",
+            "Vicent Aznar Roig"
+          ],
+          [
+            "Associazione Culturale Musicale Apollonia de Pollina",
+            "Rosario Giaimi"
+          ],
+          [
+            "Società Filarmonica Giuseppe Biancalana di Magione",
+            "M. Rita Cardinali"
+          ]
+        ]
+      }
+    ]
   },
   {
     "numero": 4,
