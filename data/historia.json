@@ -109,8 +109,33 @@
     "gravacions": [
       {
         "video_id": "uvS3D-YlTeI",
-        "banda": null,
-        "obra": null
+        "obra": "Milestone",
+        "compositor": "Dirk Brossé",
+        "banda": "Banda Municipal de Música de Pinto"
+      },
+      {
+        "video_id": "Gg6WMoZN_yc",
+        "obra": "Egmont",
+        "compositor": "Bert Appermont",
+        "banda": "Banda Municipal de Música de Pinto"
+      },
+      {
+        "video_id": "ISE9ObuyFwY",
+        "obra": "Give Us This Day",
+        "compositor": "David Maslanka",
+        "banda": "União Filarmónica do Troviscal"
+      },
+      {
+        "video_id": "qJZsb2uSzCY",
+        "obra": "Contestania Ibérica",
+        "compositor": "Joan Vicent Egea",
+        "banda": "União Filarmónica do Troviscal"
+      },
+      {
+        "video_id": "LyqxvXq3814",
+        "obra": "Symphony N. 1 Gilgamesh",
+        "compositor": "Bert Appermont",
+        "banda": "Banda Sinfònica Portuguesa de Porto"
       }
     ],
     "jurat": [
