@@ -403,7 +403,56 @@
         "obra": null
       }
     ],
-    "dates": "15, 16 i 17 d’abril de 2011"
+    "dates": "15, 16 i 17 d’abril de 2011",
+    "jurat": [
+      "Thomas Doss",
+      "Carlo Pirola",
+      "Andrés Valero-Castells"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Sociedad Musical La Armónica de San Antonio de Requena",
+            "Manuel Godoy Taules"
+          ],
+          [
+            "Ateneu Musical Schola Cantorum de la Vall d’Uixò",
+            "Lluís Sanjaime Meseguer"
+          ],
+          [
+            "Agrupación Musical Atlántida de Matamá",
+            "Enrique Lorenzo Vila"
+          ],
+          [
+            "Sociedad Filarmónica Unión Musical d’Agost",
+            "Rafael Manuel Garrigós García"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Sociedad Musical Santa Cecilia de Chelva",
+            "Juan Manuel Alarcón García"
+          ],
+          [
+            "Societat Unió Artística Musical d’Ontinyent",
+            "José Francisco Mira Marín"
+          ],
+          [
+            "Agrupación Musical San Clemente de la Mancha",
+            "Tomás Redondo Campos"
+          ],
+          [
+            "Sociedad Unión Artístico Musical Nulense de Nules",
+            "Agustí Lucas Sanahuja"
+          ]
+        ]
+      }
+    ]
   },
   {
     "numero": 6,
