@@ -8,11 +8,96 @@
     "gravacions": [
       {
         "video_id": "xijP_99Hji4",
-        "banda": null,
-        "obra": null
+        "obra": "Terra Mítica",
+        "compositor": "Bernardo Adam Ferrero",
+        "banda": "Banda de Música Recreativa y Cultural de Bandeira"
+      },
+      {
+        "video_id": "UozWYwftJIg",
+        "obra": "El Conde de Montecristo",
+        "compositor": "Otto M. Schwarz",
+        "banda": "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet"
+      },
+      {
+        "video_id": "Qhhy_ZRW_9s",
+        "obra": "Spartacus",
+        "compositor": "Jan Van der Roost",
+        "banda": "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet"
+      },
+      {
+        "video_id": "ePb60Zgxlr8",
+        "obra": "Manhattan Symphony",
+        "compositor": "Jan Van der Roost",
+        "banda": "Banda de Música de Santa Cruz de Ribadulla"
+      },
+      {
+        "video_id": "X_snOD_BwF4",
+        "obra": "Symphony N. 1 Gilgamesh",
+        "compositor": "Bert Appermont",
+        "banda": "Banda de Música de Santa Cruz de Ribadulla"
+      },
+      {
+        "video_id": "vA5C3ZKrtM0",
+        "obra": "Suite Alicantina",
+        "compositor": "Ricardo Dorado",
+        "banda": "Agrupació Musical l’Alcalatén de l’Alcora"
       }
     ],
-    "participants": []
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Banda de Música de Santa Cruz de Ribadulla",
+            "Juan Lois Diéguez"
+          ],
+          [
+            "Banda de Música Recreativa y Cultural de Bandeira",
+            "Braulio Manuel Cao Ledo"
+          ],
+          [
+            "Banda de Música d’Ulldecona",
+            "Joan Nadal Girona"
+          ],
+          [
+            "Banda Municipal de Ribadeo",
+            "Lourenço Cruz"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet",
+            "Miguel Molina Ruiz"
+          ],
+          [
+            "Agrupació Musical l’Alcalatén de l’Alcora",
+            "Emili Mallol Aicart"
+          ],
+          [
+            "Associació Musical Filharmònica Rossellense",
+            "Josep Rangel Reverté"
+          ],
+          [
+            "Unió Musical de la Pobla del Duc",
+            "Josep Rafael Albert Guerola"
+          ],
+          [
+            "Banda de Música Santa Cecília de la Gineta",
+            "Juan Ángel Picazo López"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "José Rafael Pascual-Vilaplana",
+      "Franco Cesarini",
+      "Enrique García Asensio",
+      "Jan Van der Roost",
+      "Otto M. Schwarz"
+    ]
   },
   {
     "numero": 2,
