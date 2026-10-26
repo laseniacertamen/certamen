@@ -371,6 +371,47 @@
         "compositor": "Gordon Jacob",
         "banda": "Unión Musical Alqueriense de Castelló"
       }
+    ],
+    "jurat": [
+      "Pilar Jurado",
+      "Andrés Valero-Castells",
+      "Javier Santacreu"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Asociación Amigos de la Música de Yecla",
+            "Ángel Hernández Azorín"
+          ],
+          [
+            "Banda de Música de Monção",
+            "José Vicente Simeó"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Unió Musical Alqueriense de les Alqueries",
+            "Lidon Valer Cabaleiro"
+          ],
+          [
+            "Sociedad Musical de Sanxenxo",
+            "Rafael Torres Míguez"
+          ],
+          [
+            "Banda Simfònica de Reus",
+            "Joan Ramon Reverté Reverté"
+          ],
+          [
+            "Banda Filarmónica St. Mamede de Ribatua",
+            "Valter Osorio Palma"
+          ]
+        ]
+      }
     ]
   },
   {
