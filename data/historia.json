@@ -4,35 +4,70 @@
     "romana": "I",
     "any": 2007,
     "edicio_especial": false,
-    "playlist_id": "PLUgXOJSLLT40"
+    "playlist_id": "PLUgXOJSLLT40",
+    "gravacions": [
+      {
+        "video_id": "xijP_99Hji4",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 2,
     "romana": "II",
     "any": 2008,
     "edicio_especial": false,
-    "playlist_id": "PLB7-0HCZmejc"
+    "playlist_id": "PLB7-0HCZmejc",
+    "gravacions": [
+      {
+        "video_id": "uvS3D-YlTeI",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 3,
     "romana": "III",
     "any": 2009,
     "edicio_especial": false,
-    "playlist_id": "PLRbOth7-bXd0"
+    "playlist_id": "PLRbOth7-bXd0",
+    "gravacions": [
+      {
+        "video_id": "j3ypLSYsd5Q",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 4,
     "romana": "IV",
     "any": 2010,
     "edicio_especial": false,
-    "playlist_id": "PLGq7wQBrEbWU"
+    "playlist_id": "PLGq7wQBrEbWU",
+    "gravacions": [
+      {
+        "video_id": "tnMH5u9bpxU",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 5,
     "romana": "V",
     "any": 2011,
     "edicio_especial": false,
-    "playlist_id": "PLLJi5vNmkDxo"
+    "playlist_id": "PLLJi5vNmkDxo",
+    "gravacions": [
+      {
+        "video_id": "w-8sxQVuV28",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 6,
@@ -67,35 +102,70 @@
     "romana": "X",
     "any": 2016,
     "edicio_especial": false,
-    "playlist_id": "PLOzm5vinbxSkR5R21LqwgU0ITDlq9y7Oa"
+    "playlist_id": "PLOzm5vinbxSkR5R21LqwgU0ITDlq9y7Oa",
+    "gravacions": [
+      {
+        "video_id": "-mCSHQGnrbg",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 11,
     "romana": "XI",
     "any": 2017,
     "edicio_especial": false,
-    "playlist_id": "PLOzm5vinbxSmy8zrsKiN0gPlGdNdUcHda"
+    "playlist_id": "PLOzm5vinbxSmy8zrsKiN0gPlGdNdUcHda",
+    "gravacions": [
+      {
+        "video_id": "f6jH_Lk5yrM",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 12,
     "romana": "XII",
     "any": 2018,
     "edicio_especial": false,
-    "playlist_id": "PLOzm5vinbxSnmggLhjlvbMqk7tt4UeF-Y"
+    "playlist_id": "PLOzm5vinbxSnmggLhjlvbMqk7tt4UeF-Y",
+    "gravacions": [
+      {
+        "video_id": "q5y4_t80dNw",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 13,
     "romana": "XIII",
     "any": 2019,
     "edicio_especial": false,
-    "playlist_id": "PLOzm5vinbxSkgJvGuDxN7-GwnTsSXzOAW"
+    "playlist_id": "PLOzm5vinbxSkgJvGuDxN7-GwnTsSXzOAW",
+    "gravacions": [
+      {
+        "video_id": "EUiYEbMeVwM",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 14,
     "romana": "XIV",
     "any": 2022,
     "edicio_especial": false,
-    "playlist_id": "PLOzm5vinbxSlRG_bQoQc-7jMUA8J2l-Ek"
+    "playlist_id": "PLOzm5vinbxSlRG_bQoQc-7jMUA8J2l-Ek",
+    "gravacions": [
+      {
+        "video_id": "hFlIi5lWLWw",
+        "banda": null,
+        "obra": null
+      }
+    ]
   },
   {
     "numero": 15,
