@@ -4,3 +4,8 @@
 .history-recordings{margin-top:1.25rem;display:grid;gap:.65rem}.history-recordings h3{margin:.2rem 0 .4rem;font-size:1.1rem}.history-recording{display:flex;flex-direction:column;align-items:flex-start;gap:.25rem;width:100%;text-align:left;padding:.85rem 1rem;border:1px solid rgba(150,150,150,.35);border-radius:10px;background:transparent;color:inherit;cursor:pointer;font:inherit}.history-recording:hover,.history-recording:focus-visible{border-color:#a52a38}.history-recording.is-active{border-color:#a52a38;background:rgba(165,42,56,.08)}.history-recording span{font-size:.9rem;opacity:.8}
 
 .history-people,.history-jury{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:.8rem}.history-people li,.history-jury li{padding:1rem 1.15rem;border-radius:12px;background:rgba(150,150,150,.075);border-left:3px solid #a52a38}.history-people strong,.history-people span{display:block}.history-people span{margin-top:.4rem;font-size:.9rem;opacity:.8}.history-panel h3{margin:1.6rem 0 .6rem;color:#a52a38}.history-recordings{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}.history-recordings h3{grid-column:1/-1}.history-recording{min-height:110px;justify-content:center}
+
+/* Jerarquia tipogràfica de les fitxes de cada edició */
+#history-view > h2{font-size:clamp(1.55rem,3vw,2.05rem);line-height:1.25}
+.history-panel > h2{font-size:clamp(1.25rem,2.2vw,1.55rem);line-height:1.3;margin-bottom:1rem}
+.history-panel > h3{font-size:1.08rem;line-height:1.4}
