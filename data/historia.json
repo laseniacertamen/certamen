@@ -399,8 +399,27 @@
     "gravacions": [
       {
         "video_id": "w-8sxQVuV28",
-        "banda": null,
-        "obra": null
+        "obra": "Polifemo y Galatea",
+        "compositor": "Andrés Valero-Castells",
+        "banda": "Ateneu Musical Schola Cantorum de la Vall d’Uixò"
+      },
+      {
+        "video_id": "2MVVTFO59dg",
+        "obra": "Ángel «El Calo» / Apocalypse / Polifemo y Galatea",
+        "compositor": "José Martínez Gallego / Derek Bourgeois / Andrés Valero-Castells",
+        "banda": "Sociedad Musical La Armónica de San Antonio de Requena"
+      },
+      {
+        "video_id": "a4fMSotSArU",
+        "obra": "Rapsody Symphonique",
+        "compositor": "Serge Lancen",
+        "banda": "Sociedad Unión Artístico Musical Nulense de Nules"
+      },
+      {
+        "video_id": "-CMO1tR5EwA",
+        "obra": "Music of the Spheres",
+        "compositor": "Philip Sparke",
+        "banda": "Sociedad Unión Artístico Musical Nulense de Nules"
       }
     ],
     "dates": "15, 16 i 17 d’abril de 2011",
