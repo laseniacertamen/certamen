@@ -9,3 +9,6 @@
 #history-view > h2{font-size:clamp(1.55rem,3vw,2.05rem);line-height:1.25}
 .history-panel > h2{font-size:clamp(1.25rem,2.2vw,1.55rem);line-height:1.3;margin-bottom:1rem}
 .history-panel > h3{font-size:1.08rem;line-height:1.4}
+
+/* Títol de l'edició: més presència que els apartats interiors */
+#history-view > h2{font-size:clamp(1.85rem,3.6vw,2.5rem);font-weight:750;line-height:1.2;margin-bottom:1.35rem}
