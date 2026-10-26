@@ -112,6 +112,79 @@
         "banda": null,
         "obra": null
       }
+    ],
+    "jurat": [
+      "Lorenzo Della Fonte",
+      "Dirk Brossé",
+      "Philip Sparke",
+      "Jordi Mora",
+      "Salvador Brotons",
+      "J. Vicent Egea"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Banda Sinfònica Portuguesa de Porto",
+            "Francisco Ferreira"
+          ],
+          [
+            "Societat Musical La Alianza de Vinaròs",
+            "José Ramon Renovell Renovell"
+          ],
+          [
+            "Banda-Escola de Música de Beade",
+            "Luís A. González Amosa"
+          ],
+          [
+            "Banda de Música de Getafe",
+            "Francisco Aguado Martí"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "União Filarmónica do Troviscal",
+            "André Granjo"
+          ],
+          [
+            "Cercle Musical Primitiva d’Albaida",
+            "Saül Gómez Soler"
+          ],
+          [
+            "Unió Musical de Xeraco",
+            "Antonio Cuenca Castelló"
+          ],
+          [
+            "Agrupació Musical Rapitenca de la Ràpita",
+            "Antoni Josep Alburquerque Subirats"
+          ]
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          [
+            "Banda Municipal de Música de Pinto",
+            "José Antonio Blasco Lambíes"
+          ],
+          [
+            "Sociedad Filarmónica Ntra. Sra. del Carmen de Salteras",
+            "Francisco Pizarro"
+          ],
+          [
+            "Societat Unió Musical Verge de Gràcia de Chella",
+            "Juan Carlos Sempere Bombói"
+          ],
+          [
+            "Agrupació Musical Santa Cecília d’Ador",
+            "Ramon Garcia Soler"
+          ]
+        ]
+      }
     ]
   },
   {
@@ -126,7 +199,8 @@
         "banda": null,
         "obra": null
       }
-    ]
+    ],
+    "dates": "18, 19 i 25 d’abril de 2009"
   },
   {
     "numero": 4,
@@ -154,14 +228,65 @@
         "banda": null,
         "obra": null
       }
-    ]
+    ],
+    "dates": "15, 16 i 17 d’abril de 2011"
   },
   {
     "numero": 6,
     "romana": "VI",
     "any": 2012,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "dates": "14 i 15 d’abril de 2012",
+    "jurat": [
+      "Bert Appermont",
+      "Maurice Hamers",
+      "Zulema de la Cruz"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Agrupación Musical Juvenil de Cabezo de Torres",
+            ""
+          ],
+          [
+            "Societat Joventut Musical de Faura",
+            ""
+          ],
+          [
+            "Associació Musical Ciutat de Benicarló",
+            ""
+          ],
+          [
+            "Agrupació Musical Los Silos de Burjassot",
+            ""
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Societat Unió Musical de Riba-roja del Túria",
+            ""
+          ],
+          [
+            "Asociación Musical Moteña de Mota del Cuervo",
+            ""
+          ],
+          [
+            "Banda Amizade – Banda Sinfónica de Aveiro",
+            ""
+          ],
+          [
+            "Banda Municipal de Música de Villena",
+            "Pedro Ángel López"
+          ]
+        ]
+      }
+    ]
   },
   {
     "numero": 7,
@@ -210,7 +335,8 @@
         "banda": null,
         "obra": null
       }
-    ]
+    ],
+    "dates": "8 i 9 d’abril de 2017"
   },
   {
     "numero": 12,
@@ -238,7 +364,8 @@
         "banda": null,
         "obra": null
       }
-    ]
+    ],
+    "dates": "13 i 14 d’abril de 2019"
   },
   {
     "numero": 14,
@@ -252,7 +379,8 @@
         "banda": null,
         "obra": null
       }
-    ]
+    ],
+    "dates": "2 i 3 d’abril de 2022"
   },
   {
     "numero": 15,
@@ -266,20 +394,23 @@
     "romana": "XVI",
     "any": 2024,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "dates": "13 i 14 d’abril de 2024"
   },
   {
     "numero": 17,
     "romana": "XVII",
     "any": 2025,
     "edicio_especial": true,
-    "playlist_id": null
+    "playlist_id": null,
+    "dates": "12 i 13 d’abril de 2025"
   },
   {
     "numero": 18,
     "romana": "XVIII",
     "any": 2026,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "dates": "11 i 12 d’abril de 2026"
   }
 ]
