@@ -560,8 +560,51 @@
     "gravacions": [
       {
         "video_id": "-mCSHQGnrbg",
-        "banda": null,
-        "obra": null
+        "obra": "Concert commemoratiu del 10è aniversari",
+        "compositor": null,
+        "banda": "Banda Municipal de Música de Bilbao"
+      },
+      {
+        "video_id": "u1u_VfiJhyc",
+        "obra": "Obertura Senienca / Extreme Make Over / Legenda rumantscha",
+        "compositor": "José Rafael Pascual-Vilaplana / Johan de Meij / Oliver Waespi",
+        "banda": "Banda de Música de la Sociedad Musical de Cehegín"
+      },
+      {
+        "video_id": "s1R_tSspVS0",
+        "obra": "Traner / Libertadores / Legenda rumantscha",
+        "compositor": "Rafael Talens Pello / Óscar Navarro / Oliver Waespi",
+        "banda": "Banda de Música de El Espinar"
+      },
+      {
+        "video_id": "GDgi3K6qCcU",
+        "obra": "Obertura Senienca / Memorias de un hombre de ciudad / Legenda rumantscha",
+        "compositor": "José Rafael Pascual-Vilaplana / Luis Serrano Alarcón / Oliver Waespi",
+        "banda": "Unió Musical de Riba-roja del Túria"
+      }
+    ],
+    "jurat": [
+      "Oliver Waespi",
+      "Leon J. Bly",
+      "Voro García"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Unió Musical de Riba-roja del Túria",
+            "José Pascual Arnau Paredes"
+          ],
+          [
+            "Banda de Música de El Espinar",
+            "José Luis López Antón"
+          ],
+          [
+            "Banda de Música de la Sociedad Musical de Cehegín",
+            "Rafael González García"
+          ]
+        ]
       }
     ]
   },
