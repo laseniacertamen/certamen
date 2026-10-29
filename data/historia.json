@@ -559,12 +559,6 @@
     "playlist_id": "PLOzm5vinbxSkR5R21LqwgU0ITDlq9y7Oa",
     "gravacions": [
       {
-        "video_id": "-mCSHQGnrbg",
-        "obra": "Concert commemoratiu del 10è aniversari",
-        "compositor": null,
-        "banda": "Banda Municipal de Música de Bilbao"
-      },
-      {
         "video_id": "u1u_VfiJhyc",
         "obra": "Obertura Senienca / Extreme Make Over / Legenda rumantscha",
         "compositor": "José Rafael Pascual-Vilaplana / Johan de Meij / Oliver Waespi",
@@ -605,6 +599,14 @@
             "Rafael González García"
           ]
         ]
+      }
+    ],
+    "concert_gravacions": [
+      {
+        "video_id": "-mCSHQGnrbg",
+        "obra": "Concert commemoratiu del 10è aniversari",
+        "compositor": null,
+        "banda": "Banda Municipal de Música de Bilbao"
       }
     ]
   },
