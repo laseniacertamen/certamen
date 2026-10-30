@@ -5,11 +5,11 @@
   // Traduccions del menú principal. Es gestionen aquí perquè aquest fitxer
   // és comú a totes les pàgines i així la navegació sempre canvia d'idioma.
   var navTranslations = {
-    ca: { home:'Inici', contest:'El Certamen', participation:'Participació', program:'Programa', results:'Resultats', news:'Actualitat', territory:'La Sénia i el territori', faq:'FAQ', contact:'Contacte' },
-    es: { home:'Inicio', contest:'El Certamen', participation:'Participación', program:'Programa', results:'Resultados', news:'Actualidad', territory:'La Sénia y el territorio', faq:'FAQ', contact:'Contacto' },
-    gl: { home:'Inicio', contest:'O Certame', participation:'Participación', program:'Programa', results:'Resultados', news:'Actualidade', territory:'La Sénia e o territorio', faq:'FAQ', contact:'Contacto' },
-    pt: { home:'Início', contest:'O Certame', participation:'Participação', program:'Programa', results:'Resultados', news:'Atualidade', territory:'La Sénia e o território', faq:'FAQ', contact:'Contacto' },
-    en: { home:'Home', contest:'The Competition', participation:'Participation', program:'Programme', results:'Results', news:'News', territory:'La Sénia and the surrounding area', faq:'FAQ', contact:'Contact' }
+    ca: { home:'Inici', contest:'El Certamen', participation:'Participació', program:'Programa', results:'Resultats', news:'Actualitat', territory:'La Sénia i el territori', faq:'FAQ', history:'Història', contact:'Contacte' },
+    es: { home:'Inicio', contest:'El Certamen', participation:'Participación', program:'Programa', results:'Resultados', news:'Actualidad', territory:'La Sénia y el territorio', faq:'FAQ', history:'Historia', contact:'Contacto' },
+    gl: { home:'Inicio', contest:'O Certame', participation:'Participación', program:'Programa', results:'Resultados', news:'Actualidade', history:'Historia', territory:'La Sénia e o territorio', faq:'FAQ', history:'Historia', contact:'Contacto' },
+    pt: { home:'Início', contest:'O Certame', participation:'Participação', program:'Programa', results:'Resultados', news:'Atualidade', history:'História', territory:'La Sénia e o território', faq:'FAQ', history:'Historia', contact:'Contacto' },
+    en: { home:'Home', contest:'The Competition', participation:'Participation', program:'Programme', results:'Results', news:'News', territory:'La Sénia and the surrounding area', faq:'FAQ', history:'History', contact:'Contact' }
   };
 
 

@@ -1,0 +1,1374 @@
+[
+  {
+    "numero": 1,
+    "romana": "I",
+    "any": 2007,
+    "edicio_especial": false,
+    "playlist_id": "PLUgXOJSLLT40",
+    "gravacions": [
+      {
+        "video_id": "xijP_99Hji4",
+        "obra": "Terra Mítica",
+        "compositor": "Bernardo Adam Ferrero",
+        "banda": "Banda de Música Recreativa y Cultural de Bandeira"
+      },
+      {
+        "video_id": "UozWYwftJIg",
+        "obra": "El Conde de Montecristo",
+        "compositor": "Otto M. Schwarz",
+        "banda": "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet"
+      },
+      {
+        "video_id": "Qhhy_ZRW_9s",
+        "obra": "Spartacus",
+        "compositor": "Jan Van der Roost",
+        "banda": "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet"
+      },
+      {
+        "video_id": "ePb60Zgxlr8",
+        "obra": "Manhattan Symphony",
+        "compositor": "Jan Van der Roost",
+        "banda": "Banda de Música de Santa Cruz de Ribadulla"
+      },
+      {
+        "video_id": "X_snOD_BwF4",
+        "obra": "Symphony N. 1 Gilgamesh",
+        "compositor": "Bert Appermont",
+        "banda": "Banda de Música de Santa Cruz de Ribadulla"
+      },
+      {
+        "video_id": "vA5C3ZKrtM0",
+        "obra": "Suite Alicantina",
+        "compositor": "Ricardo Dorado",
+        "banda": "Agrupació Musical l’Alcalatén de l’Alcora"
+      }
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Banda de Música de Santa Cruz de Ribadulla",
+            "Juan Lois Diéguez"
+          ],
+          [
+            "Banda de Música Recreativa y Cultural de Bandeira",
+            "Braulio Manuel Cao Ledo"
+          ],
+          [
+            "Banda de Música d’Ulldecona",
+            "Joan Nadal Girona"
+          ],
+          [
+            "Banda Municipal de Ribadeo",
+            "Lourenço Cruz"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet",
+            "Miguel Molina Ruiz"
+          ],
+          [
+            "Agrupació Musical l’Alcalatén de l’Alcora",
+            "Emili Mallol Aicart"
+          ],
+          [
+            "Associació Musical Filharmònica Rossellense",
+            "Josep Rangel Reverté"
+          ],
+          [
+            "Unió Musical de la Pobla del Duc",
+            "Josep Rafael Albert Guerola"
+          ],
+          [
+            "Banda de Música Santa Cecília de la Gineta",
+            "Juan Ángel Picazo López"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "José Rafael Pascual-Vilaplana",
+      "Franco Cesarini",
+      "Enrique García Asensio",
+      "Jan Van der Roost",
+      "Otto M. Schwarz"
+    ],
+    "dates": "3 i 4 de març de 2007",
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda de Música de Santa Cruz de Ribadulla",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Banda de Música Recreativa y Cultural de Bandeira",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Agrupació Musical l’Alcalatén de l’Alcora",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 2,
+    "romana": "II",
+    "any": 2008,
+    "edicio_especial": false,
+    "playlist_id": "PLB7-0HCZmejc",
+    "gravacions": [
+      {
+        "video_id": "uvS3D-YlTeI",
+        "obra": "Milestone",
+        "compositor": "Dirk Brossé",
+        "banda": "Banda Municipal de Música de Pinto"
+      },
+      {
+        "video_id": "Gg6WMoZN_yc",
+        "obra": "Egmont",
+        "compositor": "Bert Appermont",
+        "banda": "Banda Municipal de Música de Pinto"
+      },
+      {
+        "video_id": "ISE9ObuyFwY",
+        "obra": "Give Us This Day",
+        "compositor": "David Maslanka",
+        "banda": "União Filarmónica do Troviscal"
+      },
+      {
+        "video_id": "qJZsb2uSzCY",
+        "obra": "Contestania Ibérica",
+        "compositor": "Joan Vicent Egea",
+        "banda": "União Filarmónica do Troviscal"
+      },
+      {
+        "video_id": "LyqxvXq3814",
+        "obra": "Symphony N. 1 Gilgamesh",
+        "compositor": "Bert Appermont",
+        "banda": "Banda Sinfònica Portuguesa de Porto"
+      }
+    ],
+    "jurat": [
+      "Lorenzo Della Fonte",
+      "Dirk Brossé",
+      "Philip Sparke",
+      "Jordi Mora",
+      "Salvador Brotons",
+      "J. Vicent Egea"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Banda Sinfònica Portuguesa de Porto",
+            "Francisco Ferreira"
+          ],
+          [
+            "Societat Musical La Alianza de Vinaròs",
+            "José Ramon Renovell Renovell"
+          ],
+          [
+            "Banda-Escola de Música de Beade",
+            "Luís A. González Amosa"
+          ],
+          [
+            "Banda de Música de Getafe",
+            "Francisco Aguado Martí"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "União Filarmónica do Troviscal",
+            "André Granjo"
+          ],
+          [
+            "Cercle Musical Primitiva d’Albaida",
+            "Saül Gómez Soler"
+          ],
+          [
+            "Unió Musical de Xeraco",
+            "Antonio Cuenca Castelló"
+          ],
+          [
+            "Agrupació Musical Rapitenca de la Ràpita",
+            "Antoni Josep Alburquerque Subirats"
+          ]
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          [
+            "Banda Municipal de Música de Pinto",
+            "José Antonio Blasco Lambíes"
+          ],
+          [
+            "Sociedad Filarmónica Ntra. Sra. del Carmen de Salteras",
+            "Francisco Pizarro"
+          ],
+          [
+            "Societat Unió Musical Verge de Gràcia de Chella",
+            "Juan Carlos Sempere Bombói"
+          ],
+          [
+            "Agrupació Musical Santa Cecília d’Ador",
+            "Ramon Garcia Soler"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda Sinfònica Portuguesa de Porto",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Societat Musical La Alianza de Vinaròs",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "União Filarmónica do Troviscal",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Cercle Musical Primitiva d’Albaida",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          {
+            "banda": "Banda Municipal de Música de Pinto",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Sociedad Filarmónica Ntra. Sra. del Carmen de Salteras",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 3,
+    "romana": "III",
+    "any": 2009,
+    "edicio_especial": false,
+    "playlist_id": "PLRbOth7-bXd0",
+    "gravacions": [
+      {
+        "video_id": "b2NIyayDM4k",
+        "obra": "Te Deum",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "lG8E1-4CokQ",
+        "obra": "Dutch Masters Suite",
+        "compositor": "Johan de Meij",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "OcNdcOfLU7E",
+        "obra": "La Fanciulla del West",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "TDGwsdMmQnA",
+        "obra": "Edgar",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      },
+      {
+        "video_id": "wWk1flHgxzg",
+        "obra": "La Tregenda",
+        "compositor": "Giacomo Puccini",
+        "banda": "Orquestra de Vents Filharmonia"
+      }
+    ],
+    "dates": "18, 19 i 25 d’abril de 2009",
+    "jurat": [
+      "Johan de Meij",
+      "Alex Schillings",
+      "Eugene Migliaro Corporon"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Centre Instructiu Musical Santa Cecília de Yátova",
+            "José Francisco Sánchez Iborra"
+          ],
+          [
+            "Banda Municipal de Música d’Alcanar",
+            "Pascual Arnau Beltrán"
+          ],
+          [
+            "Associação Banda 25 de Março de Podence",
+            "Bruno Pinto"
+          ]
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          [
+            "Societat Artística Musical de Castellnovo",
+            "Ricardo Bolós Pérez"
+          ],
+          [
+            "Sociedade Filarmónica Gualdim Pais de Tomar",
+            "Hermenegildo Campos"
+          ],
+          [
+            "Agrupació Musical Vila de Càlig",
+            "Vicent Aznar Roig"
+          ],
+          [
+            "Associazione Culturale Musicale Apollonia de Pollina",
+            "Rosario Giaimi"
+          ],
+          [
+            "Società Filarmonica Giuseppe Biancalana di Magione",
+            "M. Rita Cardinali"
+          ]
+        ]
+      }
+    ],
+    "concert": {
+      "banda": "Orquestra de Vents Filharmonia del País Valencià",
+      "directors": [
+        "José Rafael Pascual-Vilaplana",
+        "Johan de Meij",
+        "Eugene Migliaro Corporon"
+      ]
+    },
+    "titol_gravacions": {
+      "ca": "Concert de l’Orquestra de Vents Filharmonia",
+      "es": "Concierto de la Orquesta de Vientos Filharmonia",
+      "gl": "Concerto da Orquestra de Ventos Filharmonia",
+      "pt": "Concerto da Orquestra de Sopros Filharmonia",
+      "en": "Concert by the Filharmonia Wind Orchestra"
+    },
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Centre Instructiu Musical Santa Cecília de Yátova",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Banda Municipal de Música d’Alcanar",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          {
+            "banda": "Societat Artística Musical de Castellnovo",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Sociedade Filarmónica Gualdim Pais de Tomar",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 4,
+    "romana": "IV",
+    "any": 2010,
+    "edicio_especial": false,
+    "playlist_id": "PLGq7wQBrEbWU",
+    "gravacions": [
+      {
+        "video_id": "tnMH5u9bpxU",
+        "obra": "Luceafarul",
+        "compositor": "Thomas Doss",
+        "banda": "Asociación Amigos de la Música de Yecla"
+      },
+      {
+        "video_id": "Y9F1AzYn0Zc",
+        "obra": "Il Cantico",
+        "compositor": "Oliver Waespi",
+        "banda": "Asociación Amigos de la Música de Yecla"
+      },
+      {
+        "video_id": "1t4P6Fpq5OM",
+        "obra": "Dredred",
+        "compositor": "Andrés Valero-Castells",
+        "banda": "Unión Musical Alqueriense de Castelló"
+      },
+      {
+        "video_id": "Rgq_PEEV3mk",
+        "obra": "An Original Suite",
+        "compositor": "Gordon Jacob",
+        "banda": "Unión Musical Alqueriense de Castelló"
+      }
+    ],
+    "jurat": [
+      "Pilar Jurado",
+      "Andrés Valero-Castells",
+      "Javier Santacreu"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Asociación Amigos de la Música de Yecla",
+            "Ángel Hernández Azorín"
+          ],
+          [
+            "Banda de Música de Monção",
+            "José Vicente Simeó"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Unió Musical Alqueriense de les Alqueries",
+            "Lidon Valer Cabaleiro"
+          ],
+          [
+            "Sociedad Musical de Sanxenxo",
+            "Rafael Torres Míguez"
+          ],
+          [
+            "Banda Simfònica de Reus",
+            "Joan Ramon Reverté Reverté"
+          ],
+          [
+            "Banda Filarmónica St. Mamede de Ribatua",
+            "Valter Osorio Palma"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Asociación Amigos de la Música de Yecla",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Banda de Música de Monção",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Unió Musical Alqueriense de les Alqueries",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Sociedad Musical de Sanxenxo",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 5,
+    "romana": "V",
+    "any": 2011,
+    "edicio_especial": false,
+    "playlist_id": "PLLJi5vNmkDxo",
+    "gravacions": [
+      {
+        "video_id": "w-8sxQVuV28",
+        "obra": "Polifemo y Galatea",
+        "compositor": "Andrés Valero-Castells",
+        "banda": "Ateneu Musical Schola Cantorum de la Vall d’Uixò"
+      },
+      {
+        "video_id": "2MVVTFO59dg",
+        "obra": "Ángel «El Calo» / Apocalypse / Polifemo y Galatea",
+        "compositor": "José Martínez Gallego / Derek Bourgeois / Andrés Valero-Castells",
+        "banda": "Sociedad Musical La Armónica de San Antonio de Requena"
+      },
+      {
+        "video_id": "a4fMSotSArU",
+        "obra": "Rapsody Symphonique",
+        "compositor": "Serge Lancen",
+        "banda": "Sociedad Unión Artístico Musical Nulense de Nules"
+      },
+      {
+        "video_id": "-CMO1tR5EwA",
+        "obra": "Music of the Spheres",
+        "compositor": "Philip Sparke",
+        "banda": "Sociedad Unión Artístico Musical Nulense de Nules"
+      }
+    ],
+    "dates": "15, 16 i 17 d’abril de 2011",
+    "jurat": [
+      "Thomas Doss",
+      "Carlo Pirola",
+      "Andrés Valero-Castells"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Sociedad Musical La Armónica de San Antonio de Requena",
+            "Manuel Godoy Taules"
+          ],
+          [
+            "Ateneu Musical Schola Cantorum de la Vall d’Uixò",
+            "Lluís Sanjaime Meseguer"
+          ],
+          [
+            "Agrupación Musical Atlántida de Matamá",
+            "Enrique Lorenzo Vila"
+          ],
+          [
+            "Sociedad Filarmónica Unión Musical d’Agost",
+            "Rafael Manuel Garrigós García"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Sociedad Musical Santa Cecilia de Chelva",
+            "Juan Manuel Alarcón García"
+          ],
+          [
+            "Societat Unió Artística Musical d’Ontinyent",
+            "José Francisco Mira Marín"
+          ],
+          [
+            "Agrupación Musical San Clemente de la Mancha",
+            "Tomás Redondo Campos"
+          ],
+          [
+            "Sociedad Unión Artístico Musical Nulense de Nules",
+            "Agustí Lucas Sanahuja"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Sociedad Musical La Armónica de San Antonio de Requena",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Ateneu Musical Schola Cantorum de la Vall d’Uixò",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Sociedad Musical Santa Cecilia de Chelva",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Societat Unió Artística Musical d’Ontinyent",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 6,
+    "romana": "VI",
+    "any": 2012,
+    "edicio_especial": false,
+    "playlist_id": null,
+    "dates": "14 i 15 d’abril de 2012",
+    "jurat": [
+      "Bert Appermont",
+      "Maurice Hamers",
+      "Zulema de la Cruz"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Associació Musical Ciutat de Benicarló",
+            "Pablo Andrés Galindo"
+          ],
+          [
+            "Agrupación Musical Juvenil de Cabezo de Torres",
+            "Andrés Pérez Bermabé"
+          ],
+          [
+            "Societat Joventut Musical de Faura",
+            "José Francisco Sánchez Iborra"
+          ],
+          [
+            "Agrupació Musical Los Silos de Burjassot",
+            "Javier López Saló"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda de Música Asociación Musical Moteña",
+            "José Enrique Martínez Esteve"
+          ],
+          [
+            "Societat Unió Musical de Riba-roja de Túria",
+            "José Pascual Arnau Paredes"
+          ],
+          [
+            "Banda Amizade – Banda Sinfónica de Aveiro",
+            "Carlos Marques"
+          ],
+          [
+            "Banda Filarmónica St. Mamede de Ribatua",
+            "Valter Osorio Palma"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Associació Musical Ciutat de Benicarló",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Asociación Musical Moteña de Mota del Cuervo",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 7,
+    "romana": "VII",
+    "any": 2013,
+    "edicio_especial": false,
+    "playlist_id": null,
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Unió Musical de Crevillent",
+            "Manuel Mondéjar"
+          ],
+          [
+            "Ateneu Musical de la Vila Joiosa",
+            "Juan Carlos Máñez Clemente"
+          ],
+          [
+            "Unió Musical Santa Cecília d’Onda",
+            "Daniel Gómez Asensio"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Societat Musical l’Harmònica de Cox",
+            "Gonzalo Berná Pic"
+          ],
+          [
+            "Banda Unió Filharmònica del Prat de Llobregat",
+            "Francesc Xavier Piquer i Garcia"
+          ],
+          [
+            "Centre Musical Instructiu Santa Cecília de Puçol",
+            "David Pont"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "André Waignein",
+      "Tim Reynish",
+      "Óscar Navarro"
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Unió Musical de Crevillent",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Societat Musical l’Harmònica de Cox",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 8,
+    "romana": "VIII",
+    "any": 2014,
+    "edicio_especial": false,
+    "playlist_id": null,
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda de l’Associació Músic Cultural Eldense Santa Cecília",
+            "Jaume Fornet Ausina"
+          ],
+          [
+            "Banda Simfònica de Reus",
+            "Juan Ramon Reverté Reverté"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "José Suñer-Oriola",
+      "Miguel Etchegoncelay",
+      "Santiago Quinto Serna"
+    ],
+    "concert": {
+      "banda": "Orquestra de Vents La Simfònica de Llevant",
+      "director": "Juan Conill Olivares"
+    },
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda Simfònica de Reus",
+            "premi": 1,
+            "exaequo": true
+          },
+          {
+            "banda": "Banda de l’Associació Músic Cultural Eldense Santa Cecília",
+            "premi": 2,
+            "exaequo": true
+          }
+        ]
+      }
+    ],
+    "concerts": [
+      {
+        "banda": "Orquestra de Vents La Simfònica de Llevant",
+        "director": "Juan Conill Olivares"
+      }
+    ]
+  },
+  {
+    "numero": 9,
+    "romana": "IX",
+    "any": 2015,
+    "edicio_especial": false,
+    "playlist_id": null,
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Unión Musical Torrevejense",
+            "Jaime Belda Cantavella"
+          ],
+          [
+            "Societat Musical Santa Cecília de Fortaleny",
+            "Gabriel Corachán i Galindo"
+          ],
+          [
+            "Asociación Banda de Música de Alcázar de San Juan",
+            "Luis Sánchez Romanos"
+          ],
+          [
+            "Societat Musical l’Aliança de Mutxamel",
+            "Pedro Ángel López Sánchez"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "Franco Cesarini",
+      "Gregorio Casasempere",
+      "Lorenzo Pusceddu"
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Unión Musical Torrevejense",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 10,
+    "romana": "X",
+    "any": 2016,
+    "edicio_especial": false,
+    "playlist_id": "PLOzm5vinbxSkR5R21LqwgU0ITDlq9y7Oa",
+    "gravacions": [
+      {
+        "video_id": "u1u_VfiJhyc",
+        "obra": "Obertura Senienca / Extreme Make Over / Legenda rumantscha",
+        "compositor": "José Rafael Pascual-Vilaplana / Johan de Meij / Oliver Waespi",
+        "banda": "Banda de Música de la Sociedad Musical de Cehegín"
+      },
+      {
+        "video_id": "s1R_tSspVS0",
+        "obra": "Traner / Libertadores / Legenda rumantscha",
+        "compositor": "Rafael Talens Pello / Óscar Navarro / Oliver Waespi",
+        "banda": "Banda de Música de El Espinar"
+      },
+      {
+        "video_id": "GDgi3K6qCcU",
+        "obra": "Obertura Senienca / Memorias de un hombre de ciudad / Legenda rumantscha",
+        "compositor": "José Rafael Pascual-Vilaplana / Luis Serrano Alarcón / Oliver Waespi",
+        "banda": "Unió Musical de Riba-roja del Túria"
+      }
+    ],
+    "jurat": [
+      "Oliver Waespi",
+      "Leon J. Bly",
+      "Voro García"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Unió Musical de Riba-roja del Túria",
+            "José Pascual Arnau Paredes"
+          ],
+          [
+            "Banda de Música de El Espinar",
+            "José Luis López Antón"
+          ],
+          [
+            "Banda de Música de la Sociedad Musical de Cehegín",
+            "Rafael González García"
+          ]
+        ]
+      }
+    ],
+    "concert_gravacions": [
+      {
+        "video_id": "-mCSHQGnrbg",
+        "obra": "Concert commemoratiu del 10è aniversari",
+        "compositor": null,
+        "banda": "Banda Municipal de Música de Bilbao"
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Banda de Música de la Sociedad Musical de Cehegín",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ],
+    "concerts": [
+      {
+        "banda": "Banda Municipal de Música de Bilbao",
+        "director": "José Rafael Pascual-Vilaplana"
+      }
+    ]
+  },
+  {
+    "numero": 11,
+    "romana": "XI",
+    "any": 2017,
+    "edicio_especial": false,
+    "playlist_id": "PLOzm5vinbxSmy8zrsKiN0gPlGdNdUcHda",
+    "gravacions": [
+      {
+        "video_id": "f6jH_Lk5yrM",
+        "banda": "Banda de Música de la Sierra de Algairén",
+        "obra": "Rubores / First Suite in E-flat / Obertura Senienca",
+        "compositor": "Pascual Marquina / Gustav Holst / José Rafael Pascual-Vilaplana"
+      },
+      {
+        "video_id": "DWbLmtTqGQw",
+        "banda": "Agrupación Musical de Beniaján",
+        "obra": "Goya / Symphony No. 1 «The Archangels» / Lincolnshire Posy",
+        "compositor": "Julián Palanca / Franco Cesarini / Percy Aldridge Grainger"
+      },
+      {
+        "video_id": "P959rE5ue5o",
+        "banda": "Centre Instructiu Musical de Mislata",
+        "obra": "El torico de la cuerda / Simfonia «Il Fiume» / Lincolnshire Posy",
+        "compositor": "Luis Serrano Alarcón / Jurriaan Andriessen / Percy Aldridge Grainger"
+      },
+      {
+        "video_id": "MFr4GaDmdj0",
+        "banda": "Banda Artística de Merza",
+        "obra": "Sombras y luces / Symphony No. 8 (III) / Lincolnshire Posy",
+        "compositor": "Santiago Quinto Serna / David Maslanka / Percy Aldridge Grainger"
+      },
+      {
+        "video_id": "4_0JIqlK0sw",
+        "banda": "Centre Musical Instructiu Santa Cecília de Puçol",
+        "obra": "Lluny de València / Valhalla / Obertura Senienca",
+        "compositor": "Miguel Asins Arbó / Francisco Zacarés / José Rafael Pascual-Vilaplana"
+      }
+    ],
+    "dates": "8 i 9 d’abril de 2017",
+    "jurat": [
+      "Salvador Sebastià",
+      "Toni Scholl",
+      "Silvia Sanz Junio"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Banda Artística de Merza",
+            "José Luis Quintás Carreira"
+          ],
+          [
+            "Centre Instructiu Musical de Mislata",
+            "Francisco Valero-Terribas"
+          ],
+          [
+            "Agrupación Musical de Beniaján",
+            "Mario Ortuño"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Centre Musical Instructiu Santa Cecília de Puçol",
+            "Xesco Guillem i Escobar"
+          ],
+          [
+            "Banda de Música de la Sierra de Algairén",
+            "David Báguena Luño"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda Artística de Merza",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Centre Musical Instructiu Santa Cecília de Puçol",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 12,
+    "romana": "XII",
+    "any": 2018,
+    "edicio_especial": false,
+    "playlist_id": "PLOzm5vinbxSnmggLhjlvbMqk7tt4UeF-Y",
+    "gravacions": [
+      {
+        "video_id": "q5y4_t80dNw",
+        "banda": "Banda de l’Agrupació Artística Musical «El Trabajo» de Xixona",
+        "obra": "Enrique López / El Olimpo de los Dioses / Figures Sonores",
+        "compositor": "Anton Alcalde / Óscar Navarro / Henk Badings"
+      },
+      {
+        "video_id": "-KtgjecmAtY",
+        "banda": "Banda Sinfónica Municipal de Música Ciudad Atarfe",
+        "obra": "Marta Agustín / Pinazo / Figures Sonores",
+        "compositor": "Pere Sanz Alcover / Saül Gómez Soler / Henk Badings"
+      },
+      {
+        "video_id": "O4fjA7WeTkg",
+        "banda": "Banda Filarmónica União Taveirense de Taveiro",
+        "obra": "Paso Quebrado / Lincolnshire Posy / Figures Sonores",
+        "compositor": "Luis Cardoso / Percy Aldridge Grainger / Henk Badings"
+      }
+    ],
+    "jurat": [
+      "Isabelle Ruf-Weber",
+      "Leon J. Bly",
+      "Manel Valdivieso"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda Filarmónica União Taveirense de Taveiro",
+            "João Paulo Fernades"
+          ],
+          [
+            "Banda Sinfónica Municipal de Música Ciudad Atarfe",
+            "José Antonio Guerrero González"
+          ],
+          [
+            "Banda de l’Agrupació Artística Musical «El Trabajo» de Xixona",
+            "David González Tormo"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Banda de l’Agrupació Artística Musical «El Trabajo» de Xixona",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 13,
+    "romana": "XIII",
+    "any": 2019,
+    "edicio_especial": false,
+    "playlist_id": "PLOzm5vinbxSkgJvGuDxN7-GwnTsSXzOAW",
+    "gravacions": [
+      {
+        "video_id": "EUiYEbMeVwM",
+        "banda": "Banda de Música Societat Escola Musical Santa Cecília de l’Olleria",
+        "obra": "Camino de Rosas / Mutanza / Three Sketches for Wind Ensemble",
+        "compositor": "José Franco / Jim Curnow / Luis Serrano Alarcón"
+      },
+      {
+        "video_id": "y7--lq1p7xw",
+        "banda": "Banda de Música Sementeira de Cambre",
+        "obra": "Bagaxes / Marea Negra / Three Sketches for Wind Ensemble",
+        "compositor": "Carlos Rodríguez Torres / Antón Alcalde / Luis Serrano Alarcón"
+      }
+    ],
+    "dates": "13 i 14 d’abril de 2019",
+    "jurat": [
+      "Eduard de Boer",
+      "Xavier Pagès-Corella",
+      "Miquel Rodrigo"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda de Música Societat Escola Musical Santa Cecília de l’Olleria",
+            "Ramon Garcia i Soler"
+          ],
+          [
+            "Banda de Música Sementeira de Cambre",
+            "Francisco Javier Vidal Suárez"
+          ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Banda de Música Societat Escola Musical Santa Cecília de l’Olleria",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numero": 14,
+    "romana": "XIV",
+    "any": 2022,
+    "edicio_especial": false,
+    "gravacions": [],
+    "dates": "2 i 3 d’abril de 2022",
+    "concerts": [
+      {
+        "banda": "Societat Musical La Lira Ampostina",
+        "director": "Sergi Costes Ferré"
+      },
+      {
+        "banda": "Banda de Música de l’Associació Musical Ciutat de Benicarló",
+        "director": "Pablo Anglés Galindo"
+      },
+      {
+        "banda": "La Simfònica de Llevant",
+        "director": "Joan F. Ballesteros i Joan Conill"
+      }
+    ]
+  },
+  {
+    "numero": 15,
+    "romana": "XV",
+    "any": 2023,
+    "edicio_especial": false,
+    "playlist_id": null,
+    "concerts": [
+      {
+        "banda": "Banda Municipal de Barcelona",
+        "director": "Juan Miguel Romero Llopis"
+      },
+      {
+        "banda": "Orquestra de Vents de Friburg",
+        "director": "Miguel Etchegoncelay"
+      },
+      {
+        "banda": "Banda Sinfónica Portuguesa",
+        "director": "Jordi Francès"
+      }
+    ]
+  },
+  {
+    "numero": 16,
+    "romana": "XVI",
+    "any": 2024,
+    "edicio_especial": false,
+    "playlist_id": "PLOzm5vinbxSlRG_bQoQc-7jMUA8J2l-Ek",
+    "dates": "13 i 14 d’abril de 2024",
+    "gravacions": [
+      {
+        "video_id": "hFlIi5lWLWw",
+        "banda": "Banda de Dones de Catalunya",
+        "obra": null
+      },
+      {
+        "video_id": "QNAlN7f1Ms8",
+        "banda": "Banda de Dones de la Federació de Societats Musicals de la Comunitat Valenciana",
+        "obra": null
+      },
+      {
+        "video_id": "gc6vojRGAdk",
+        "banda": "Banda Simfònica de Reus",
+        "obra": null
+      }
+    ],
+    "concerts": [
+      {
+        "banda": "Banda Simfònica de Reus",
+        "director": "Juan Ramon Reverté i Reverté"
+      },
+      {
+        "banda": "Banda de Dones de Catalunya",
+        "director": "Antonia Luengo"
+      },
+      {
+        "banda": "Banda de Dones de la Federació de Societats Musicals de la Comunitat Valenciana",
+        "director": "Sofía Zarzoso"
+      }
+    ]
+  },
+  {
+    "numero": 17,
+    "romana": "XVII",
+    "any": 2025,
+    "edicio_especial": true,
+    "playlist_id": null,
+    "dates": "12 i 13 d’abril de 2025",
+    "concerts": [
+      {
+        "banda": "Unió Musical de Paiporta",
+        "director": "Luis Miguel Moncayo Olivares"
+      },
+      {
+        "banda": "Unió Musical de Catarroja",
+        "director": "Natalia Montañés i Bori"
+      },
+      {
+        "banda": "Unió Musical d’Aldaia",
+        "director": "J. Amadeo Guillot Montaner"
+      }
+    ]
+  },
+  {
+    "numero": 18,
+    "romana": "XVIII",
+    "any": 2026,
+    "edicio_especial": false,
+    "playlist_id": null,
+    "dates": "11 d’abril de 2026",
+    "premiades": [
+      {
+        "seccio": "",
+        "bandes": [
+          {
+            "banda": "Banda Municipal de Música d’Alcanar",
+            "premi": null,
+            "exaequo": false
+          }
+        ]
+      }
+    ],
+    "jurat": [
+      "Andreja Šolar",
+      "Juan Durán Alonso",
+      "Núria Sempere Comas"
+    ],
+    "participants": [
+      {
+        "seccio": "",
+        "bandes": [
+          [
+            "Banda Unió Musical de Tarragona",
+            "Jordi Masip Masip"
+          ],
+          [
+            "Banda Municipal de Música d’Alcanar",
+            "Pascual Arnau Beltran"
+          ]
+        ]
+      }
+    ],
+    "programa": [
+      {
+        "banda": "Banda Unió Musical de Tarragona",
+        "obres": [
+          [
+            "Evocazioni",
+            "Paul Huber"
+          ],
+          [
+            "The Bells of Sagrada Família",
+            "Satoshi Yagisawa"
+          ],
+          [
+            "Trencadís",
+            "Bert Appermont"
+          ]
+        ]
+      },
+      {
+        "banda": "Banda Municipal de Música d’Alcanar",
+        "obres": [
+          [
+            "Evocazioni",
+            "Paul Huber"
+          ],
+          [
+            "Larga Cordobesa",
+            "F. José Martínez Gallego"
+          ],
+          [
+            "Las puertas de Janus",
+            "Juan Expósito Cárceles"
+          ]
+        ]
+      }
+    ]
+  }
+]
