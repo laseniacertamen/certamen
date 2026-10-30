@@ -696,8 +696,45 @@
     "gravacions": [
       {
         "video_id": "q5y4_t80dNw",
-        "banda": null,
-        "obra": null
+        "banda": "Banda de l’Agrupació Artística Musical «El Trabajo» de Xixona",
+        "obra": "Enrique López / El Olimpo de los Dioses / Figures Sonores",
+        "compositor": "Anton Alcalde / Óscar Navarro / Henk Badings"
+      },
+      {
+        "video_id": "-KtgjecmAtY",
+        "banda": "Banda Sinfónica Municipal de Música Ciudad Atarfe",
+        "obra": "Marta Agustín / Pinazo / Figures Sonores",
+        "compositor": "Pere Sanz Alcover / Saül Gómez Soler / Henk Badings"
+      },
+      {
+        "video_id": "O4fjA7WeTkg",
+        "banda": "Banda Filarmónica União Taveirense de Taveiro",
+        "obra": "Paso Quebrado / Lincolnshire Posy / Figures Sonores",
+        "compositor": "Luis Cardoso / Percy Aldridge Grainger / Henk Badings"
+      }
+    ],
+    "jurat": [
+      "Isabelle Ruf-Weber",
+      "Leon J. Bly",
+      "Manel Valdivieso"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda Filarmónica União Taveirense de Taveiro",
+            "João Paulo Fernades"
+          ],
+          [
+            "Banda Sinfónica Municipal de Música Ciudad Atarfe",
+            "José Antonio Guerrero González"
+          ],
+          [
+            "Banda de l’Agrupació Artística Musical «El Trabajo» de Xixona",
+            "David González Tormo"
+          ]
+        ]
       }
     ]
   },
