@@ -785,15 +785,22 @@
     "romana": "XIV",
     "any": 2022,
     "edicio_especial": false,
-    "playlist_id": "PLOzm5vinbxSlRG_bQoQc-7jMUA8J2l-Ek",
-    "gravacions": [
+    "gravacions": [],
+    "dates": "2 i 3 d’abril de 2022",
+    "concerts": [
       {
-        "video_id": "hFlIi5lWLWw",
-        "banda": null,
-        "obra": null
+        "banda": "Societat Musical La Lira Ampostina",
+        "director": "Sergi Costes Ferré"
+      },
+      {
+        "banda": "Banda de Música de l’Associació Musical Ciutat de Benicarló",
+        "director": "Pablo Anglés Galindo"
+      },
+      {
+        "banda": "La Simfònica de Llevant",
+        "director": "Joan F. Ballesteros i Joan Conill"
       }
-    ],
-    "dates": "2 i 3 d’abril de 2022"
+    ]
   },
   {
     "numero": 15,
