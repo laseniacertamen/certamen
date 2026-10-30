@@ -535,21 +535,114 @@
     "romana": "VII",
     "any": 2013,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Unió Musical de Crevillent",
+            "Manuel Mondéjar"
+          ],
+          [
+            "Ateneu Musical de la Vila Joiosa",
+            "Juan Carlos Máñez Clemente"
+          ],
+          [
+            "Unió Musical Santa Cecília d’Onda",
+            "Daniel Gómez Asensio"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Societat Musical l’Harmònica de Cox",
+            "Gonzalo Berná Pic"
+          ],
+          [
+            "Banda Unió Filharmònica del Prat de Llobregat",
+            "Francesc Xavier Piquer i Garcia"
+          ],
+          [
+            "Centre Musical Instructiu Santa Cecília de Puçol",
+            "David Pont"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "André Waignein",
+      "Tim Reynish",
+      "Óscar Navarro"
+    ]
   },
   {
     "numero": 8,
     "romana": "VIII",
     "any": 2014,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda de l’Associació Músic Cultural Eldense Santa Cecília",
+            "Jaume Fornet Ausina"
+          ],
+          [
+            "Banda Simfònica de Reus",
+            "Juan Ramon Reverté Reverté"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "José Suñer-Oriola",
+      "Miguel Etchegoncelay",
+      "Santiago Quinto Serna"
+    ],
+    "concert": {
+      "banda": "Orquestra de Vents La Simfònica de Llevant",
+      "director": "Juan Conill Olivares"
+    }
   },
   {
     "numero": 9,
     "romana": "IX",
     "any": 2015,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Unión Musical Torrevejense",
+            "Jaime Belda Cantavella"
+          ],
+          [
+            "Societat Musical Santa Cecília de Fortaleny",
+            "Gabriel Corachán i Galindo"
+          ],
+          [
+            "Asociación Banda de Música de Alcázar de San Juan",
+            "Luis Sánchez Romanos"
+          ],
+          [
+            "Societat Musical l’Aliança de Mutxamel",
+            "Pedro Ángel López Sánchez"
+          ]
+        ]
+      }
+    ],
+    "jurat": [
+      "Franco Cesarini",
+      "Gregorio Casasempere",
+      "Lorenzo Pusceddu"
+    ]
   },
   {
     "numero": 10,
@@ -807,7 +900,21 @@
     "romana": "XV",
     "any": 2023,
     "edicio_especial": false,
-    "playlist_id": null
+    "playlist_id": null,
+    "concerts": [
+      {
+        "banda": "Banda Municipal de Barcelona",
+        "director": "Juan Miguel Romero Llopis"
+      },
+      {
+        "banda": "Orquestra de Vents de Friburg",
+        "director": "Miguel Etchegoncelay"
+      },
+      {
+        "banda": "Banda Sinfónica Portuguesa",
+        "director": "Jordi Francès"
+      }
+    ]
   },
   {
     "numero": 16,
@@ -854,7 +961,21 @@
     "any": 2025,
     "edicio_especial": true,
     "playlist_id": null,
-    "dates": "12 i 13 d’abril de 2025"
+    "dates": "12 i 13 d’abril de 2025",
+    "concerts": [
+      {
+        "banda": "Unió Musical de Paiporta",
+        "director": "Luis Miguel Moncayo Olivares"
+      },
+      {
+        "banda": "Unió Musical de Catarroja",
+        "director": "Natalia Montañés i Bori"
+      },
+      {
+        "banda": "Unió Musical d’Aldaia",
+        "director": "J. Amadeo Guillot Montaner"
+      }
+    ]
   },
   {
     "numero": 18,
