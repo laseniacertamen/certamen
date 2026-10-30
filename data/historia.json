@@ -747,11 +747,38 @@
     "gravacions": [
       {
         "video_id": "EUiYEbMeVwM",
-        "banda": null,
-        "obra": null
+        "banda": "Banda de Música Societat Escola Musical Santa Cecília de l’Olleria",
+        "obra": "Camino de Rosas / Mutanza / Three Sketches for Wind Ensemble",
+        "compositor": "José Franco / Jim Curnow / Luis Serrano Alarcón"
+      },
+      {
+        "video_id": "y7--lq1p7xw",
+        "banda": "Banda de Música Sementeira de Cambre",
+        "obra": "Bagaxes / Marea Negra / Three Sketches for Wind Ensemble",
+        "compositor": "Carlos Rodríguez Torres / Antón Alcalde / Luis Serrano Alarcón"
       }
     ],
-    "dates": "13 i 14 d’abril de 2019"
+    "dates": "13 i 14 d’abril de 2019",
+    "jurat": [
+      "Eduard de Boer",
+      "Xavier Pagès-Corella",
+      "Miquel Rodrigo"
+    ],
+    "participants": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Banda de Música Societat Escola Musical Santa Cecília de l’Olleria",
+            "Ramon Garcia i Soler"
+          ],
+          [
+            "Banda de Música Sementeira de Cambre",
+            "Francisco Javier Vidal Suárez"
+          ]
+        ]
+      }
+    ]
   },
   {
     "numero": 14,
