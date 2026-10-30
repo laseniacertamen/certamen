@@ -98,7 +98,39 @@
       "Jan Van der Roost",
       "Otto M. Schwarz"
     ],
-    "dates": "3 i 4 de març de 2007"
+    "dates": "3 i 4 de març de 2007",
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda de Música de Santa Cruz de Ribadulla",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Banda de Música Recreativa y Cultural de Bandeira",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Societat Instructiva de l’Obrer Agrícola i Musical de Benimàmet",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Agrupació Musical l’Alcalatén de l’Alcora",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
   },
   {
     "numero": 2,
@@ -210,6 +242,53 @@
           ]
         ]
       }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda Sinfònica Portuguesa de Porto",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Societat Musical La Alianza de Vinaròs",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "União Filarmónica do Troviscal",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Cercle Musical Primitiva d’Albaida",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          {
+            "banda": "Banda Municipal de Música de Pinto",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Sociedad Filarmónica Ntra. Sra. del Carmen de Salteras",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -314,7 +393,39 @@
       "gl": "Concerto da Orquestra de Ventos Filharmonia",
       "pt": "Concerto da Orquestra de Sopros Filharmonia",
       "en": "Concert by the Filharmonia Wind Orchestra"
-    }
+    },
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Centre Instructiu Musical Santa Cecília de Yátova",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Banda Municipal de Música d’Alcanar",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "3a secció",
+        "bandes": [
+          {
+            "banda": "Societat Artística Musical de Castellnovo",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Sociedade Filarmónica Gualdim Pais de Tomar",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
   },
   {
     "numero": 4,
@@ -386,6 +497,38 @@
             "Banda Filarmónica St. Mamede de Ribatua",
             "Valter Osorio Palma"
           ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Asociación Amigos de la Música de Yecla",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Banda de Música de Monção",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Unió Musical Alqueriense de les Alqueries",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Sociedad Musical de Sanxenxo",
+            "premi": 2,
+            "exaequo": false
+          }
         ]
       }
     ]
@@ -471,6 +614,38 @@
           ]
         ]
       }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Sociedad Musical La Armónica de San Antonio de Requena",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Ateneu Musical Schola Cantorum de la Vall d’Uixò",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Sociedad Musical Santa Cecilia de Chelva",
+            "premi": 1,
+            "exaequo": false
+          },
+          {
+            "banda": "Societat Unió Artística Musical d’Ontinyent",
+            "premi": 2,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -528,6 +703,28 @@
           ]
         ]
       }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Associació Musical Ciutat de Benicarló",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Asociación Musical Moteña de Mota del Cuervo",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -576,6 +773,28 @@
       "André Waignein",
       "Tim Reynish",
       "Óscar Navarro"
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Unió Musical de Crevillent",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Societat Musical l’Harmònica de Cox",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -607,7 +826,24 @@
     "concert": {
       "banda": "Orquestra de Vents La Simfònica de Llevant",
       "director": "Juan Conill Olivares"
-    }
+    },
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda Simfònica de Reus",
+            "premi": 1,
+            "exaequo": true
+          },
+          {
+            "banda": "Banda de l’Associació Músic Cultural Eldense Santa Cecília",
+            "premi": 2,
+            "exaequo": true
+          }
+        ]
+      }
+    ]
   },
   {
     "numero": 9,
@@ -642,6 +878,18 @@
       "Franco Cesarini",
       "Gregorio Casasempere",
       "Lorenzo Pusceddu"
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Unión Musical Torrevejense",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -700,6 +948,18 @@
         "obra": "Concert commemoratiu del 10è aniversari",
         "compositor": null,
         "banda": "Banda Municipal de Música de Bilbao"
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Banda de Música de la Sociedad Musical de Cehegín",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
       }
     ]
   },
@@ -778,6 +1038,28 @@
           ]
         ]
       }
+    ],
+    "premiades": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          {
+            "banda": "Banda Artística de Merza",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Centre Musical Instructiu Santa Cecília de Puçol",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -829,6 +1111,18 @@
           ]
         ]
       }
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Banda de l’Agrupació Artística Musical «El Trabajo» de Xixona",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
     ]
   },
   {
@@ -869,6 +1163,18 @@
             "Banda de Música Sementeira de Cambre",
             "Francisco Javier Vidal Suárez"
           ]
+        ]
+      }
+    ],
+    "premiades": [
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          {
+            "banda": "Banda de Música Societat Escola Musical Santa Cecília de l’Olleria",
+            "premi": 1,
+            "exaequo": false
+          }
         ]
       }
     ]
@@ -983,6 +1289,18 @@
     "any": 2026,
     "edicio_especial": false,
     "playlist_id": null,
-    "dates": "11 i 12 d’abril de 2026"
+    "dates": "11 i 12 d’abril de 2026",
+    "premiades": [
+      {
+        "seccio": "",
+        "bandes": [
+          {
+            "banda": "Banda Municipal de Música d’Alcanar",
+            "premi": 1,
+            "exaequo": false
+          }
+        ]
+      }
+    ]
   }
 ]
