@@ -665,20 +665,20 @@
         "seccio": "1a secció",
         "bandes": [
           [
+            "Associació Musical Ciutat de Benicarló",
+            "Pablo Andrés Galindo"
+          ],
+          [
             "Agrupación Musical Juvenil de Cabezo de Torres",
-            ""
+            "Andrés Pérez Bermabé"
           ],
           [
             "Societat Joventut Musical de Faura",
-            ""
-          ],
-          [
-            "Associació Musical Ciutat de Benicarló",
-            ""
+            "José Francisco Sánchez Iborra"
           ],
           [
             "Agrupació Musical Los Silos de Burjassot",
-            ""
+            "Javier López Saló"
           ]
         ]
       },
@@ -686,20 +686,20 @@
         "seccio": "2a secció",
         "bandes": [
           [
-            "Societat Unió Musical de Riba-roja del Túria",
-            ""
+            "Banda de Música Asociación Musical Moteña",
+            "José Enrique Martínez Esteve"
           ],
           [
-            "Asociación Musical Moteña de Mota del Cuervo",
-            ""
+            "Societat Unió Musical de Riba-roja de Túria",
+            "José Pascual Arnau Paredes"
           ],
           [
             "Banda Amizade – Banda Sinfónica de Aveiro",
-            ""
+            "Carlos Marques"
           ],
           [
-            "Banda Municipal de Música de Villena",
-            "Pedro Ángel López"
+            "Banda Filarmónica St. Mamede de Ribatua",
+            "Valter Osorio Palma"
           ]
         ]
       }
@@ -843,6 +843,12 @@
           }
         ]
       }
+    ],
+    "concerts": [
+      {
+        "banda": "Orquestra de Vents La Simfònica de Llevant",
+        "director": "Juan Conill Olivares"
+      }
     ]
   },
   {
@@ -960,6 +966,12 @@
             "exaequo": false
           }
         ]
+      }
+    ],
+    "concerts": [
+      {
+        "banda": "Banda Municipal de Música de Bilbao",
+        "director": "José Rafael Pascual-Vilaplana"
       }
     ]
   },
@@ -1289,7 +1301,7 @@
     "any": 2026,
     "edicio_especial": false,
     "playlist_id": null,
-    "dates": "11 i 12 d’abril de 2026",
+    "dates": "11 d’abril de 2026",
     "premiades": [
       {
         "seccio": "",
@@ -1299,6 +1311,62 @@
             "premi": null,
             "exaequo": false
           }
+        ]
+      }
+    ],
+    "jurat": [
+      "Andreja Šolar",
+      "Juan Durán Alonso",
+      "Núria Sempere Comas"
+    ],
+    "participants": [
+      {
+        "seccio": "",
+        "bandes": [
+          [
+            "Banda Unió Musical de Tarragona",
+            "Jordi Masip Masip"
+          ],
+          [
+            "Banda Municipal de Música d’Alcanar",
+            "Pascual Arnau Beltran"
+          ]
+        ]
+      }
+    ],
+    "programa": [
+      {
+        "banda": "Banda Unió Musical de Tarragona",
+        "obres": [
+          [
+            "Evocazioni",
+            "Paul Huber"
+          ],
+          [
+            "The Bells of Sagrada Família",
+            "Satoshi Yagisawa"
+          ],
+          [
+            "Trencadís",
+            "Bert Appermont"
+          ]
+        ]
+      },
+      {
+        "banda": "Banda Municipal de Música d’Alcanar",
+        "obres": [
+          [
+            "Evocazioni",
+            "Paul Huber"
+          ],
+          [
+            "Larga Cordobesa",
+            "F. José Martínez Gallego"
+          ],
+          [
+            "Las puertas de Janus",
+            "Juan Expósito Cárceles"
+          ]
         ]
       }
     ]
