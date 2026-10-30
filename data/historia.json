@@ -619,11 +619,73 @@
     "gravacions": [
       {
         "video_id": "f6jH_Lk5yrM",
-        "banda": null,
-        "obra": null
+        "banda": "Banda de Música de la Sierra de Algairén",
+        "obra": "Rubores / First Suite in E-flat / Obertura Senienca",
+        "compositor": "Pascual Marquina / Gustav Holst / José Rafael Pascual-Vilaplana"
+      },
+      {
+        "video_id": "DWbLmtTqGQw",
+        "banda": "Agrupación Musical de Beniaján",
+        "obra": "Goya / Symphony No. 1 «The Archangels» / Lincolnshire Posy",
+        "compositor": "Julián Palanca / Franco Cesarini / Percy Aldridge Grainger"
+      },
+      {
+        "video_id": "P959rE5ue5o",
+        "banda": "Centre Instructiu Musical de Mislata",
+        "obra": "El torico de la cuerda / Simfonia «Il Fiume» / Lincolnshire Posy",
+        "compositor": "Luis Serrano Alarcón / Jurriaan Andriessen / Percy Aldridge Grainger"
+      },
+      {
+        "video_id": "MFr4GaDmdj0",
+        "banda": "Banda Artística de Merza",
+        "obra": "Sombras y luces / Symphony No. 8 (III) / Lincolnshire Posy",
+        "compositor": "Santiago Quinto Serna / David Maslanka / Percy Aldridge Grainger"
+      },
+      {
+        "video_id": "4_0JIqlK0sw",
+        "banda": "Centre Musical Instructiu Santa Cecília de Puçol",
+        "obra": "Lluny de València / Valhalla / Obertura Senienca",
+        "compositor": "Miguel Asins Arbó / Francisco Zacarés / José Rafael Pascual-Vilaplana"
       }
     ],
-    "dates": "8 i 9 d’abril de 2017"
+    "dates": "8 i 9 d’abril de 2017",
+    "jurat": [
+      "Salvador Sebastià",
+      "Toni Scholl",
+      "Silvia Sanz Junio"
+    ],
+    "participants": [
+      {
+        "seccio": "1a secció",
+        "bandes": [
+          [
+            "Banda Artística de Merza",
+            "José Luis Quintás Carreira"
+          ],
+          [
+            "Centre Instructiu Musical de Mislata",
+            "Francisco Valero-Terribas"
+          ],
+          [
+            "Agrupación Musical de Beniaján",
+            "Mario Ortuño"
+          ]
+        ]
+      },
+      {
+        "seccio": "2a secció",
+        "bandes": [
+          [
+            "Centre Musical Instructiu Santa Cecília de Puçol",
+            "Xesco Guillem i Escobar"
+          ],
+          [
+            "Banda de Música de la Sierra de Algairén",
+            "David Báguena Luño"
+          ]
+        ]
+      }
+    ]
   },
   {
     "numero": 12,
