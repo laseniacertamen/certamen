@@ -1649,3 +1649,10 @@ footer > p[data-common="footerName"] { margin-bottom: 20px; }
 .footer-links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-bottom: 20px; }
 .footer-links a { color: var(--yellow); text-decoration: none; }
 .footer-links a:hover, .footer-links a:focus-visible { text-decoration: underline; text-underline-offset: 4px; }
+
+/* Capçalera en pantalles mitjanes (portàtils): sense les icones de xarxes, que ja surten al peu,
+   perquè el menú i el selector d'idioma hi càpiguen en tots els idiomes. */
+@media (min-width: 1101px) and (max-width: 1439px) {
+  .header .social-header { display: none; }
+  .header { gap: 16px; }
+}
