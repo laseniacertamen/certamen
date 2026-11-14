@@ -1,8 +1,22 @@
 # Web del Certamen Internacional de Bandes de Música Vila de la Sénia
 
-Web estàtica publicada amb GitHub Pages a **https://certamen.cat** (fitxer `CNAME`). No cal instal·lar res ni compilar: cada canvi que arriba a la branca `master` es publica automàticament en un o dos minuts.
+Web estàtica publicada amb GitHub Pages a **https://certamen.cat**. Cada canvi que arriba a la branca `master` es publica automàticament en uns minuts (pestanya **Actions** del repositori).
 
-Idiomes: CA · ES · GL · PT · EN. Totes les llengües comparteixen la mateixa URL i el text es canvia amb JavaScript; l'idioma triat es desa al navegador (`localStorage`, clau `certamen-lang`).
+## Idiomes i publicació
+
+Idiomes: CA · ES · GL · PT · EN. Cada idioma té les seves adreces, perquè els cercadors els indexin tots:
+
+| Idioma | Adreça |
+|---|---|
+| Català | `certamen.cat/`, `certamen.cat/faq.html`… |
+| Castellà | `certamen.cat/es/`, `certamen.cat/es/faq.html`… |
+| Gallec, portuguès, anglès | `/gl/`, `/pt/`, `/en/` |
+
+**Només s'editen les pàgines del repositori** (en català, amb les traduccions als fitxers JS). Les versions dels altres idiomes no són al repositori: les genera `tools/build.py` a cada publicació. El workflow `.github/workflows/pages.yml` obre cada pàgina en un navegador sense finestra, hi aplica cada idioma amb els mateixos scripts de la web i desa l'HTML ja traduït a `/es/`, `/gl/`… També hi afegeix les etiquetes `canonical` i `hreflang` i genera el `sitemap.xml` amb tots els idiomes.
+
+Si una publicació falla (per exemple, per un error de JavaScript en alguna pàgina), surt marcada en vermell a la pestanya **Actions** i la web continua com estava.
+
+En les pàgines publicades, el selector d'idioma porta a la mateixa pàgina en l'altre idioma i desa la preferència al navegador (`localStorage`, clau `certamen-lang`). Qui té una preferència desada i entra des de fora a una pàgina en català va directament a la del seu idioma.
 
 ## Pàgines
 
@@ -45,7 +59,9 @@ Fitxers comuns a totes les pàgines:
 
 **Logotips i imatges.** A `assets/`. El logo de la web és `logo-certamen-blanc.svg`; la icona de la pestanya, `favicon.svg` (amb `favicon.png` i `favicon_32.png` com a alternatives). La imatge que es mostra en compartir la web a les xarxes és `og-certamen-2027.jpg` (1200×630): cal renovar-la per a cada edició. Els patrocinadors són a `el-certamen.html` (busca `PATROCINADORS`).
 
-**Pàgines noves.** Copia l'estructura d'una pàgina existent (amb `js/comu.js` al `<head>`, `Certamen.header(...)` i `Certamen.footer()`), afegeix-la a `NAV` si ha de sortir al menú i a `sitemap.xml`, amb `canonical`, `description`, `og:url` i objecte `seo` propis.
+**Pàgines noves.** Copia l'estructura d'una pàgina existent (amb `js/comu.js` al `<head>`, `Certamen.header(...)` i `Certamen.footer()`), amb `canonical`, `description`, `og:url` i objecte `seo` propis, i afegeix-la a `NAV` si ha de sortir al menú. Les versions en els altres idiomes i el `sitemap.xml` es generen soles.
+
+**Rutes a recursos des dels scripts.** Les pàgines dels altres idiomes són a una subcarpeta (`/es/`…). Si un script carrega un fitxer o crea un enllaç a `assets/`, `data/` o `doc/`, fes servir `Certamen.url('data/…')`, que hi afegeix el `../` quan cal.
 
 ## Formularis
 
@@ -62,4 +78,16 @@ Des de la carpeta del repositori:
 python3 -m http.server 8000
 ```
 
-i obre http://localhost:8000. Cal un servidor (no obrir l'HTML directament) perquè algunes pàgines carreguen `data/historia.json`. Per provar-ho al mòbil, afegeix `--bind 0.0.0.0` i obre `http://IP_DEL_PORTATIL:8000` des del mòbil connectat a la mateixa xarxa.
+i obre http://localhost:8000. Aquí el selector d'idioma canvia el text de la mateixa pàgina (no hi ha carpetes `/es/`…), cosa suficient per revisar textos i traduccions.
+
+Per veure exactament el que es publicarà, amb les carpetes de cada idioma:
+
+```bash
+pip install playwright && python3 -m playwright install chromium   # només el primer cop
+python3 tools/build.py
+python3 -m http.server 8000 -d _site
+```
+
+La carpeta `_site/` és temporal i no es puja al repositori.
+
+En tots dos casos cal un servidor (no obrir l'HTML directament) perquè algunes pàgines carreguen `data/historia.json`. Per provar-ho al mòbil, afegeix `--bind 0.0.0.0` i obre `http://IP_DEL_PORTATIL:8000` des del mòbil connectat a la mateixa xarxa.

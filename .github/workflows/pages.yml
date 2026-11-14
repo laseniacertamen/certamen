@@ -1,0 +1,45 @@
+# Publica la web a GitHub Pages amb una versió per idioma (vegeu tools/build.py).
+# Requisit (un sol cop): Settings → Pages → Build and deployment → Source: «GitHub Actions».
+name: Publica la web
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instal·la Playwright i Chromium
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Genera la web en tots els idiomes
+        run: python tools/build.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

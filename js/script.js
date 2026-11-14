@@ -328,7 +328,7 @@ Certamen.onLang(setLanguage);
         card.hidden = false;
     }
 
-    fetch('data/historia.json')
+    fetch(Certamen.url('data/historia.json'))
         .then((response) => response.json())
         .then((editions) => {
             latest = editions
