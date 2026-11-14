@@ -15,9 +15,9 @@ poden indexar. També hi afegeix canonical, hreflang i un sitemap.xml amb tots e
 El fa servir el workflow de GitHub Actions (.github/workflows/pages.yml) a cada canvi a
 master. Per generar-la en local:
 
-    pip install playwright && python3 -m playwright install chromium
-    python3 tools/build.py
-    python3 -m http.server 8000 -d _site
+    python3 -m pip install --user playwright && python3 -m playwright install chromium
+    python3 tools/build.py          (cal Python 3.9 o posterior)
+    cd _site && python3 -m http.server 8000
 """
 import functools
 import http.server

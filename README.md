@@ -83,9 +83,9 @@ i obre http://localhost:8000. Aquí el selector d'idioma canvia el text de la ma
 Per veure exactament el que es publicarà, amb les carpetes de cada idioma:
 
 ```bash
-pip install playwright && python3 -m playwright install chromium   # només el primer cop
+python3 -m pip install --user playwright && python3 -m playwright install chromium   # només el primer cop (cal Python 3.9 o posterior)
 python3 tools/build.py
-python3 -m http.server 8000 -d _site
+cd _site && python3 -m http.server 8000
 ```
 
 La carpeta `_site/` és temporal i no es puja al repositori.
