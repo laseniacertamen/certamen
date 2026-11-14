@@ -28,5 +28,6 @@
 </g>
     </mask>
   </defs>
-  <circle cx="512" cy="512" r="512" fill="#000" mask="url(#m)"/>
+  <style>.bg{fill:#000}@media (prefers-color-scheme:dark){.bg{fill:#fff}}</style>
+  <circle class="bg" cx="512" cy="512" r="512" mask="url(#m)"/>
 </svg>
