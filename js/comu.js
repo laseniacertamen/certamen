@@ -19,6 +19,15 @@
  *                                                  ni escoltar els botons d'idioma.
  *   Certamen.lang()                               idioma actual ('ca', 'es', 'gl', 'pt', 'en').
  *
+ *   Certamen.url('data/historia.json')            ruta correcta a un recurs (assets/, data/, doc/…)
+ *                                                  tant des de l'arrel com des de /es/, /en/…
+ *
+ * ── Versions per idioma (certamen.cat/es/, /gl/, /pt/, /en/) ────────────────────
+ *   Les genera tools/build.py a partir d'aquestes mateixes pàgines (vegeu el README).
+ *   Les pàgines generades porten <html data-generated data-root="../"> i el seu idioma
+ *   és fix: el selector d'idioma porta a la mateixa pàgina en l'altre idioma.
+ *   A les pàgines font (proves en local) el selector canvia el text sense recarregar.
+ *
  * Per afegir o treure un enllaç del menú, modifica NAV i els textos de TEXTS.
  */
 (function () {
@@ -84,6 +93,11 @@
   ];
 
   // ── Idioma ──────────────────────────────────────────────────────────────────
+  var html = document.documentElement;
+  var GENERATED = html.hasAttribute('data-generated');      // pàgina publicada amb idioma fix
+  var ROOT = html.getAttribute('data-root') || '';          // '' a l'arrel, '../' a /es/, /en/…
+  var BUILD_LANG = window.CERTAMEN_BUILD_LANG;               // només durant la generació
+
   function storedLanguage() {
     try {
       var lang = localStorage.getItem(STORAGE_KEY) || localStorage.getItem(OLD_STORAGE_KEY);
@@ -93,7 +107,37 @@
     }
   }
 
-  var current = storedLanguage();
+  var current = LANGS.indexOf(BUILD_LANG) >= 0 ? BUILD_LANG
+    : GENERATED ? (LANGS.indexOf(html.lang) >= 0 ? html.lang : 'ca')
+    : storedLanguage();
+
+  function url(path) { return ROOT + path; }
+
+  // Adreça d'aquesta mateixa pàgina en un altre idioma (només per a pàgines generades).
+  function pageUrl(lang) {
+    var file = location.pathname.split('/').pop() || '';
+    return ROOT + (lang === 'ca' ? '' : lang + '/') + file + location.search + location.hash;
+  }
+
+  function remember(lang) {
+    try {
+      localStorage.setItem(STORAGE_KEY, lang);
+      localStorage.removeItem(OLD_STORAGE_KEY);
+    } catch (_) {}
+  }
+
+  // Qui ja ha triat un idioma i arriba des de fora a una pàgina en català (p. ex. un enllaç
+  // compartit o un cercador) va a la seva versió. Els enllaços explícits a /es/, /en/… es respecten
+  // i els robots dels cercadors no tenen preferència desada, així que no es redirigeixen.
+  if (GENERATED && current === 'ca') {
+    var preferred = null;
+    try { preferred = localStorage.getItem(STORAGE_KEY); } catch (_) {}
+    var internal = false;
+    try { internal = document.referrer && new URL(document.referrer).origin === location.origin; } catch (_) {}
+    if (preferred && preferred !== 'ca' && LANGS.indexOf(preferred) >= 0 && !internal) {
+      location.replace(pageUrl(preferred));
+    }
+  }
   var listeners = [];
   var ready = false;
 
@@ -110,11 +154,12 @@
 
   function setLang(lang) {
     if (LANGS.indexOf(lang) < 0) return;
+    remember(lang);
+    if (GENERATED) {
+      if (lang !== current) location.href = pageUrl(lang);
+      return;
+    }
     current = lang;
-    try {
-      localStorage.setItem(STORAGE_KEY, lang);
-      localStorage.removeItem(OLD_STORAGE_KEY);
-    } catch (_) {}
     applyCommon();
     listeners.forEach(run);
   }
@@ -143,7 +188,7 @@
     }).join('');
     insertHere(
       '<header class="header">' +
-        '<a data-nav="home" aria-label="Certamen Vila de la Sénia" class="brand" href="index.html"><img alt="" class="brand-logo" height="56" src="assets/logo-certamen-blanc.svg" width="56"/><span><strong>CERTAMEN</strong><small>VILA DE LA SÉNIA</small></span></a>' +
+        '<a data-nav="home" aria-label="Certamen Vila de la Sénia" class="brand" href="index.html"><img alt="" class="brand-logo" height="56" src="' + url('assets/logo-certamen-blanc.svg') + '" width="56"/><span><strong>CERTAMEN</strong><small>VILA DE LA SÉNIA</small></span></a>' +
         '<button aria-controls="nav" aria-expanded="false" class="menu-toggle" type="button" data-common="menu">' + t.menu + '</button>' +
         '<nav aria-label="' + t.navLabel + '" class="nav" id="nav">' + nav + '</nav>' +
         '<div class="social-links social-header" aria-label="' + t.socialLabel + '">' + socialMarkup(t) + '</div>' +
@@ -157,7 +202,7 @@
     var t = TEXTS[current];
     insertHere(
       '<footer>' +
-        '<div class="footer-brand"><img alt="" class="brand-logo" height="56" src="assets/logo-certamen-blanc.svg" width="56"/><div><strong>CERTAMEN</strong><small>VILA DE LA SÉNIA</small></div></div>' +
+        '<div class="footer-brand"><img alt="" class="brand-logo" height="56" src="' + url('assets/logo-certamen-blanc.svg') + '" width="56"/><div><strong>CERTAMEN</strong><small>VILA DE LA SÉNIA</small></div></div>' +
         '<p data-common="footerName">' + t.footerName + '</p>' +
         '<nav class="footer-links" aria-label="' + t.footerLinks + '">' +
           '<a href="contacte.html" data-common="contact">' + t.nav.contact + '</a>' +
@@ -226,5 +271,5 @@
     listeners.forEach(run);
   });
 
-  window.Certamen = { langs: LANGS.slice(), lang: lang, setLang: setLang, onLang: onLang, header: header, footer: footer };
+  window.Certamen = { langs: LANGS.slice(), lang: lang, setLang: setLang, onLang: onLang, url: url, header: header, footer: footer, generated: GENERATED };
 })();

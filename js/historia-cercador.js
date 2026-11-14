@@ -65,6 +65,8 @@
   }
 
   // ---------- Interfície ----------
+  // A les pàgines generades per idioma (tools/build.py) el cercador ja ve a l'HTML: el recreem.
+  document.querySelectorAll('.history-search, .history-search-status, .history-results').forEach(n => n.remove());
   const panel = el('form', 'history-search');
   panel.setAttribute('role', 'search');
   panel.addEventListener('submit', ev => ev.preventDefault());
@@ -213,7 +215,7 @@
   });
   Certamen.onLang(() => { if (editions.length) { fillSelects(); render(); } });
 
-  fetch('data/historia.json').then(r => { if (!r.ok) throw Error('fetch'); return r.json(); }).then(data => {
+  fetch(Certamen.url('data/historia.json')).then(r => { if (!r.ok) throw Error('fetch'); return r.json(); }).then(data => {
     editions = data.slice().sort((a, b) => a.any - b.any);
     buildIndex(editions);
     const p = new URLSearchParams(location.search);
