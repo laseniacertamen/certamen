@@ -40,8 +40,6 @@ const translations = {
     resultsText:'Consulta els resultats oficials i els reconeixements de les edicions del Certamen.',
     historyTitle:'Una història que continua sonant.',
     historyText:'Un espai per descobrir les bandes participants i els moments de les edicions anteriors.',
-    historyComingTitle:'Nuestra historia, edición a edición',
-    historyComingText:'Estamos trabajando para recuperar y compartir la historia del Certamen Internacional de Bandas de Música «Vila de la Sénia». Próximamente, este espacio se irá ampliando con información, fotografías y recuerdos de ediciones anteriores, para poner en valor la trayectoria del Certamen y de todas las bandas que han formado parte de él.',
     historyComingTitle:'La nostra història, edició a edició',
     historyComingText:'Estem treballant per recuperar i compartir la història del Certamen Internacional de Bandes de Música «Vila de la Sénia». Properament, aquest espai s’anirà ampliant amb informació, fotografies i records de les edicions anteriors, per posar en valor la trajectòria del Certamen i de totes les bandes que n’han format part.',
     newsTitle:'Segueix el ritme del Certamen.',
@@ -84,6 +82,8 @@ const translations = {
     resultsText:'Consulta los resultados oficiales y los reconocimientos de las ediciones del Certamen.',
     historyTitle:'Una historia que sigue sonando.',
     historyText:'Un espacio para descubrir las bandas participantes y los momentos de ediciones anteriores.',
+    historyComingTitle:'Nuestra historia, edición a edición',
+    historyComingText:'Estamos trabajando para recuperar y compartir la historia del Certamen Internacional de Bandas de Música «Vila de la Sénia». Próximamente, este espacio se irá ampliando con información, fotografías y recuerdos de ediciones anteriores, para poner en valor la trayectoria del Certamen y de todas las bandas que han formado parte de él.',
     newsTitle:'Sigue el ritmo del Certamen.',
     newsText:'Aquí encontrarás las novedades y los anuncios de las próximas ediciones.',
     footer:'Certamen Internacional de Bandas de Música Vila de la Sénia'
