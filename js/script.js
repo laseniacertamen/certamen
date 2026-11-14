@@ -47,7 +47,7 @@ const translations = {
     resultsAwardedPlural:'Bandes premiades',
     resultsConductor:'Direcció',
     resultsJury:'Jurat',
-    resultsMore:'Totes les edicions, premis i gravacions →',
+    resultsMore:'Totes les edicions, premis i enregistraments →',
     newsCalendar:'Calendari de l’edició 2027',
     newsItem1Date:'Fins al 31 de desembre de 2026 (12.00 h)',
     newsItem1Text:'Inscripcions obertes per a les bandes que vulguin participar en el XIX Certamen.',

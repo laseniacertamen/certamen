@@ -12,7 +12,7 @@ Idiomes: CA · ES · GL · PT · EN. Totes les llengües comparteixen la mateixa
 | `el-certamen.html` | Història, organització i patrocinadors | `js/el-certamen.js` |
 | `inscripcions.html` | Informació i formulari d'inscripció | `js/formularis.js`, `js/formularis-traduccions.js`, `js/edicio-2027.js` |
 | `programa.html` | Programa i obres obligades | `js/script.js`, `js/edicio-2027.js` |
-| `historia.html` | Totes les edicions, premis, jurats i gravacions, amb cercador | `js/historia.js`, `js/historia-cercador.js`, `data/historia.json` |
+| `historia.html` | Totes les edicions, premis, jurats i enregistraments, amb cercador | `js/historia.js`, `js/historia-cercador.js`, `data/historia.json` |
 | `territori.html` | La Sénia i el territori | `js/territori.js` |
 | `faq.html` | Preguntes freqüents | `js/faq.js` |
 | `contacte.html` | Formulari de contacte | `js/formularis.js`, `js/formularis-traduccions.js` |
