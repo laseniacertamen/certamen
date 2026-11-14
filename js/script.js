@@ -42,6 +42,22 @@ const translations = {
     historyText:'Un espai per descobrir les bandes participants i els moments de les edicions anteriors.',
     historyComingTitle:'La nostra història, edició a edició',
     historyComingText:'Estem treballant per recuperar i compartir la història del Certamen Internacional de Bandes de Música «Vila de la Sénia». Properament, aquest espai s’anirà ampliant amb informació, fotografies i records de les edicions anteriors, per posar en valor la trajectòria del Certamen i de totes les bandes que n’han format part.',
+    resultsLatest:'Darrera edició',
+    resultsAwarded:'Banda premiada',
+    resultsAwardedPlural:'Bandes premiades',
+    resultsConductor:'Direcció',
+    resultsJury:'Jurat',
+    resultsMore:'Totes les edicions, premis i enregistraments →',
+    newsCalendar:'Calendari de l’edició 2027',
+    newsItem1Date:'Fins al 31 de desembre de 2026 (12.00 h)',
+    newsItem1Text:'Inscripcions obertes per a les bandes que vulguin participar en el XIX Certamen.',
+    newsItem1Link:'Inscriu la teva banda →',
+    newsItem2Date:'Abans del 22 de gener de 2027',
+    newsItem2Text:'Notificació a les bandes seleccionades provisionalment (fins a 6).',
+    newsItem3Date:'Abans del 29 de gener de 2027',
+    newsItem3Text:'Formalització de la inscripció: fiança i documentació de la banda.',
+    newsItem4Date:'10 i 11 d’abril de 2027',
+    newsItem4Text:'XIX Certamen a la Casa de la Cultura de la Sénia.',
     newsTitle:'Segueix el ritme del Certamen.',
     newsText:'Aquí trobaràs les novetats i els anuncis de les pròximes edicions.',
     footer:'Certamen Internacional de Bandes de Música Vila de la Sénia'
@@ -84,6 +100,22 @@ const translations = {
     historyText:'Un espacio para descubrir las bandas participantes y los momentos de ediciones anteriores.',
     historyComingTitle:'Nuestra historia, edición a edición',
     historyComingText:'Estamos trabajando para recuperar y compartir la historia del Certamen Internacional de Bandas de Música «Vila de la Sénia». Próximamente, este espacio se irá ampliando con información, fotografías y recuerdos de ediciones anteriores, para poner en valor la trayectoria del Certamen y de todas las bandas que han formado parte de él.',
+    resultsLatest:'Última edición',
+    resultsAwarded:'Banda premiada',
+    resultsAwardedPlural:'Bandas premiadas',
+    resultsConductor:'Dirección',
+    resultsJury:'Jurado',
+    resultsMore:'Todas las ediciones, premios y grabaciones →',
+    newsCalendar:'Calendario de la edición 2027',
+    newsItem1Date:'Hasta el 31 de diciembre de 2026 (12:00 h)',
+    newsItem1Text:'Inscripciones abiertas para las bandas que quieran participar en el XIX Certamen.',
+    newsItem1Link:'Inscribe a tu banda →',
+    newsItem2Date:'Antes del 22 de enero de 2027',
+    newsItem2Text:'Notificación a las bandas seleccionadas provisionalmente (hasta 6).',
+    newsItem3Date:'Antes del 29 de enero de 2027',
+    newsItem3Text:'Formalización de la inscripción: fianza y documentación de la banda.',
+    newsItem4Date:'10 y 11 de abril de 2027',
+    newsItem4Text:'XIX Certamen en la Casa de la Cultura de la Sénia.',
     newsTitle:'Sigue el ritmo del Certamen.',
     newsText:'Aquí encontrarás las novedades y los anuncios de las próximas ediciones.',
     footer:'Certamen Internacional de Bandas de Música Vila de la Sénia'
@@ -126,6 +158,22 @@ const translations = {
     historyText:'Discover participating bands and memorable moments from previous editions.',
     historyComingTitle:'Our history, edition by edition',
     historyComingText:'We are working to preserve and share the history of the Vila de la Sénia International Wind Band Competition. This section will soon be expanded with information, photographs and memories from previous editions, celebrating the Competition’s history and all the bands that have taken part.',
+    resultsLatest:'Latest edition',
+    resultsAwarded:'Award-winning band',
+    resultsAwardedPlural:'Award-winning bands',
+    resultsConductor:'Conductor',
+    resultsJury:'Jury',
+    resultsMore:'All editions, prizes and recordings →',
+    newsCalendar:'2027 edition timeline',
+    newsItem1Date:'Until 31 December 2026 (12:00 noon)',
+    newsItem1Text:'Registration is open for bands wishing to take part in the 19th Competition.',
+    newsItem1Link:'Register your band →',
+    newsItem2Date:'Before 22 January 2027',
+    newsItem2Text:'Provisionally selected bands (up to 6) are notified.',
+    newsItem3Date:'Before 29 January 2027',
+    newsItem3Text:'Registration is completed: deposit and band documentation.',
+    newsItem4Date:'10–11 April 2027',
+    newsItem4Text:'19th Competition at the Casa de la Cultura, La Sénia.',
     newsTitle:'Stay in tune with the contest.',
     newsText:'Find news and announcements about upcoming editions here.',
     footer:'Vila de la Sénia International Wind Band Competition'
@@ -155,6 +203,22 @@ const translations = {
     historyText:'Um espaço para descobrir as bandas participantes e os momentos das edições anteriores.',
     historyComingTitle:'A nossa história, edição após edição',
     historyComingText:'Estamos a trabalhar para recuperar e partilhar a história do Certame Internacional de Bandas de Música «Vila de la Sénia». Em breve, este espaço será ampliado com informações, fotografias e memórias das edições anteriores, valorizando o percurso do Certame e de todas as bandas que nele participaram.',
+    resultsLatest:'Última edição',
+    resultsAwarded:'Banda premiada',
+    resultsAwardedPlural:'Bandas premiadas',
+    resultsConductor:'Direção',
+    resultsJury:'Júri',
+    resultsMore:'Todas as edições, prémios e gravações →',
+    newsCalendar:'Calendário da edição 2027',
+    newsItem1Date:'Até 31 de dezembro de 2026 (12h00)',
+    newsItem1Text:'Inscrições abertas para as bandas que pretendam participar no XIX Certame.',
+    newsItem1Link:'Inscreva a sua banda →',
+    newsItem2Date:'Antes de 22 de janeiro de 2027',
+    newsItem2Text:'Notificação às bandas selecionadas provisoriamente (até 6).',
+    newsItem3Date:'Antes de 29 de janeiro de 2027',
+    newsItem3Text:'Formalização da inscrição: caução e documentação da banda.',
+    newsItem4Date:'10 e 11 de abril de 2027',
+    newsItem4Text:'XIX Certame na Casa da Cultura de la Sénia.',
     newsTitle:'Acompanha o ritmo do Certame.',
     newsText:'Aqui encontrarás as novidades e os anúncios das próximas edições.',
     footer:'Certame Internacional de Bandas de Música Vila de la Sénia'
@@ -184,6 +248,22 @@ const translations = {
     historyText:'Un espazo para descubrir as bandas participantes e os momentos das edicións anteriores.',
     historyComingTitle:'A nosa historia, edición a edición',
     historyComingText:'Estamos a traballar para recuperar e compartir a historia do Certame Internacional de Bandas de Música «Vila de la Sénia». Proximamente, este espazo irase ampliando con información, fotografías e lembranzas das edicións anteriores, para poñer en valor a traxectoria do Certame e de todas as bandas que formaron parte del.',
+    resultsLatest:'Última edición',
+    resultsAwarded:'Banda premiada',
+    resultsAwardedPlural:'Bandas premiadas',
+    resultsConductor:'Dirección',
+    resultsJury:'Xurado',
+    resultsMore:'Todas as edicións, premios e gravacións →',
+    newsCalendar:'Calendario da edición 2027',
+    newsItem1Date:'Ata o 31 de decembro de 2026 (12:00 h)',
+    newsItem1Text:'Inscricións abertas para as bandas que queiran participar no XIX Certame.',
+    newsItem1Link:'Inscribe a túa banda →',
+    newsItem2Date:'Antes do 22 de xaneiro de 2027',
+    newsItem2Text:'Notificación ás bandas seleccionadas provisionalmente (ata 6).',
+    newsItem3Date:'Antes do 29 de xaneiro de 2027',
+    newsItem3Text:'Formalización da inscrición: fianza e documentación da banda.',
+    newsItem4Date:'10 e 11 de abril de 2027',
+    newsItem4Text:'XIX Certame na Casa da Cultura de la Sénia.',
     newsTitle:'Segue o ritmo do Certame.',
     newsText:'Aquí atoparás as novidades e os anuncios das próximas edicións.',
     footer:'Certame Internacional de Bandas de Música Vila de la Sénia'
@@ -241,3 +321,64 @@ try {
     const savedLanguage = localStorage.getItem('certamen-lang');
     if (savedLanguage && translations[savedLanguage]) setLanguage(savedLanguage);
 } catch (_) {}
+
+
+// PORTADA · RESULTATS: mostra la darrera edició amb bandes premiades de data/historia.json.
+// Quan s'afegeixi una edició nova amb el camp «premiades», la portada s'actualitza sola.
+(function () {
+    const card = document.getElementById('results-latest');
+    if (!card) return;
+    const currentLanguage = () => {
+        try { const l = localStorage.getItem('certamen-lang'); return translations[l] ? l : 'ca'; } catch (_) { return 'ca'; }
+    };
+    let latest = null;
+
+    function render() {
+        if (!latest) return;
+        const words = translations[currentLanguage()];
+        const conductors = {};
+        (latest.participants || []).forEach((group) => (group.bandes || []).forEach(([band, conductor]) => { conductors[band] = conductor; }));
+        const bands = latest.premiades.flatMap((group) => group.bandes || []);
+        card.querySelector('[data-results="edition"]').textContent = latest.romana + ' · ' + latest.any;
+        card.querySelector('[data-results="awarded-label"]').textContent = bands.length > 1 ? words.resultsAwardedPlural : words.resultsAwarded;
+        const list = card.querySelector('[data-results="bands"]');
+        list.replaceChildren(...bands.map((item) => {
+            const li = document.createElement('li');
+            const name = document.createElement('strong');
+            name.textContent = item.banda;
+            li.append(name);
+            if (item.premi) li.append(' · ' + item.premi);
+            if (conductors[item.banda]) {
+                const small = document.createElement('span');
+                small.className = 'results-conductor';
+                small.textContent = words.resultsConductor + ': ' + conductors[item.banda];
+                li.append(small);
+            }
+            return li;
+        }));
+        const jury = latest.jurat || [];
+        card.querySelector('[data-results="jury-row"]').hidden = !jury.length;
+        card.querySelector('[data-results="jury"]').textContent = jury.join(', ');
+        card.hidden = false;
+    }
+
+    fetch('data/historia.json')
+        .then((response) => response.json())
+        .then((editions) => {
+            latest = editions
+                .filter((e) => Array.isArray(e.premiades) && e.premiades.some((g) => (g.bandes || []).length))
+                .sort((a, b) => b.any - a.any)[0] || null;
+            render();
+        })
+        .catch(() => {});
+
+    document.querySelectorAll('[data-lang]').forEach((button) => button.addEventListener('click', () => setTimeout(render, 0)));
+})();
+
+// PORTADA · ACTUALITAT: atenua les fites del calendari que ja han passat.
+(function () {
+    const now = Date.now();
+    document.querySelectorAll('.news-item[data-until]').forEach((item) => {
+        if (Date.parse(item.dataset.until) <= now) item.classList.add('is-past');
+    });
+})();
