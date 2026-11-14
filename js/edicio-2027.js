@@ -39,16 +39,6 @@ function updateEdition2027(lang) {
     if (labels[index]) element.textContent = labels[index];
   });
 }
-function edition2027Language() {
-  try { return localStorage.getItem('certamen-lang') || localStorage.getItem('certamenLang') || 'ca'; }
-  catch (_) { return 'ca'; }
-}
-document.addEventListener('DOMContentLoaded', () => {
-  updateEdition2027(edition2027Language());
-  document.querySelectorAll('.lang-menu button[data-lang]').forEach(button => {
-    button.addEventListener('click', () => updateEdition2027(button.dataset.lang));
-  });
-});
 
 // Els enllaços de les bases apunten al PDF de la llengua activa.
 function updateRulesPDF(lang) {
@@ -59,9 +49,9 @@ function updateRulesPDF(lang) {
     link.setAttribute('download', 'Bases-XIX-Certamen-2027-' + selected + '.pdf');
   });
 }
-document.addEventListener('DOMContentLoaded', () => {
-  updateRulesPDF(edition2027Language());
-  document.querySelectorAll('.lang-menu button[data-lang]').forEach(button => {
-    button.addEventListener('click', () => updateRulesPDF(button.dataset.lang));
-  });
+
+// L'idioma el gestiona js/comu.js.
+Certamen.onLang(lang => {
+  updateEdition2027(lang);
+  updateRulesPDF(lang);
 });

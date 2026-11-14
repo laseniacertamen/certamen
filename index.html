@@ -10,7 +10,7 @@
 <title>Certamen Internacional de Bandes de Música Vila de la Sénia | Catalunya</title>
 <link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="assets/favicon_32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/favicon.png" rel="apple-touch-icon"/>
 <link href="css/estils.css" rel="stylesheet"/>
-<script defer="" src="js/script.js">
+<script src="js/comu.js"></script><script defer="" src="js/script.js">
 </script>
 <meta content="ca" name="language"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes." name="description"/><meta content="Agrupació Musical Senienca" name="author"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia" property="og:title"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes." property="og:description"/><meta content="website" property="og:type"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia" property="og:site_name"/><meta content="ca_ES" property="og:locale"/><meta content="ES-CT" name="geo.region"/><meta content="La Sénia" name="geo.placename"/><link rel="canonical" href="https://certamen.cat/"/><meta property="og:url" content="https://certamen.cat/"/><meta property="og:image" content="https://certamen.cat/assets/og-certamen-2027.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Certamen Internacional de Bandes de Música Vila de la Sénia · 10 i 11 d’abril de 2027"/><meta name="twitter:card" content="summary_large_image"/><!-- CA/ES/GL/PT/EN comparteixen actualment la mateixa URL i es tradueixen amb JavaScript; per això no s’afegeixen hreflang amb URLs inexistents. --><script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -57,7 +57,7 @@
 // Manté les metadades del navegador coherents amb l'idioma seleccionat.
 // Nota SEO: tots els idiomes comparteixen URL; per indexar-los per separat caldrien URLs pròpies.
 (() => {
-  const seo = {"ca": {"title": "Certamen Internacional de Bandes de Música Vila de la Sénia | Catalunya", "description": "Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes.", "locale": "ca_ES"}, "es": {"title": "Certamen Internacional de Bandas de Música Vila de la Sénia | Cataluña", "description": "Certamen Internacional de Bandas de Música Vila de la Sénia: participación, programa, resultados, historia, actualidad e información para bandas.", "locale": "es_ES"}, "gl": {"title": "Certamen Internacional de Bandes de Música Vila de la Sénia | Cataluña", "description": "Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes.", "locale": "gl_ES"}, "pt": {"title": "Certamen Internacional de Bandes de Música Vila de la Sénia | Catalunha", "description": "Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes.", "locale": "pt_PT"}, "en": {"title": "International Wind Band Competition Vila de la Sénia | Catalonia", "description": "International Wind Band Competition Vila de la Sénia: participation, programme, results, history, news and information for bands.", "locale": "en_GB"}};
+  const seo = {"ca": {"title": "Certamen Internacional de Bandes de Música Vila de la Sénia | Catalunya", "description": "Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes.", "locale": "ca_ES"}, "es": {"title": "Certamen Internacional de Bandas de Música Vila de la Sénia | Cataluña", "description": "Certamen Internacional de Bandas de Música Vila de la Sénia: participación, programa, resultados, historia, actualidad e información para bandas.", "locale": "es_ES"}, "gl": {"title": "Certame Internacional de Bandas de Música Vila de la Sénia | Cataluña", "description": "Certame Internacional de Bandas de Música Vila de la Sénia: participación, programa, resultados, historia, actualidade e información para bandas.", "locale": "gl_ES"}, "pt": {"title": "Certame Internacional de Bandas de Música Vila de la Sénia | Catalunha", "description": "Certame Internacional de Bandas de Música Vila de la Sénia: participação, programa, resultados, história, atualidade e informação para bandas.", "locale": "pt_PT"}, "en": {"title": "International Wind Band Competition Vila de la Sénia | Catalonia", "description": "International Wind Band Competition Vila de la Sénia: participation, programme, results, history, news and information for bands.", "locale": "en_GB"}};
   function applySeo(lang) {
     const data = seo[lang] || seo.ca;
     document.documentElement.lang = lang;
@@ -69,10 +69,7 @@
     set('meta[property="og:description"]', data.description);
     set('meta[property="og:locale"]', data.locale);
   }
-  document.addEventListener('click', e => {
-    const button = e.target.closest('[data-lang]');
-    if (button) applySeo(button.dataset.lang);
-  });
+  Certamen.onLang(applySeo);
 })();
 </script><link rel="stylesheet" href="css/cookies.css"><script defer src="js/cookies.js"></script><style>
 .program-works{margin-top:2rem}.program-works-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1rem;margin-top:1.25rem}.program-work{border:1px solid rgba(128,128,128,.3);border-radius:12px;padding:1.25rem;background:rgba(128,128,128,.055)}.program-work h4{margin:0 0 .55rem;font-size:1.2rem;color:inherit}.program-work p{margin:.35rem 0}.info-section .program-work .program-work-publisher,.info-section .program-work .program-work-publisher:last-child{font-size:.92rem;opacity:.9;line-height:1.5;max-width:none;margin:.35rem 0}.info-section .program-work .program-work-publisher a{font-size:inherit;line-height:inherit}.program-work-publisher a,.program-work-publisher a:visited{font-size:inherit;font-weight:700;color:#a52a38;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}.program-work-publisher a:hover,.program-work-publisher a:focus-visible{color:#c44752;text-decoration-thickness:2px}.program-work-listen{display:inline-flex;align-items:center;gap:.4rem;margin-top:.85rem;color:#a52a38;font-weight:700;text-decoration:underline;text-underline-offset:3px}.program-work-listen:hover,.program-work-listen:focus-visible{color:#c44752}
@@ -83,7 +80,7 @@
 <a class="skip" href="#main">
    Salta al contingut
   </a>
-<header class="header"><a data-nav="home" aria-label="Certamen Vila de la Sénia" class="brand" href="index.html"><img alt="" class="brand-logo" height="56" src="assets/logo-certamen-blanc.svg" width="56"/><span><strong>CERTAMEN</strong><small>VILA DE LA SÉNIA</small></span></a><button aria-controls="nav" aria-expanded="false" class="menu-toggle" type="button">Menú</button><nav aria-label="Navegació principal" class="nav" id="nav"><a data-nav="home" aria-current="page" href="index.html">Inici</a><a data-nav="contest" href="el-certamen.html">El Certamen</a><a data-nav="participation" href="inscripcions.html">Participació</a><a data-nav="program" href="programa.html">Programa</a><a data-nav="results" href="index.html#resultats">Resultats</a><a data-nav="news" href="index.html#noticies">Actualitat</a><a data-nav="history" href="historia.html">Història</a><a data-nav="territory" href="territori.html">La Sénia i el territori</a><a data-nav="faq" href="faq.html">FAQ</a><a data-nav="contact" href="contacte.html">Contacte</a></nav><details aria-label="Idioma" class="langs"><summary><span class="lang-current">CA</span><span aria-hidden="true" class="lang-arrow">▾</span></summary><div class="lang-menu"><button aria-pressed="true" data-lang="ca" type="button">Català</button><button aria-pressed="false" data-lang="es" type="button">Castellano</button><button aria-pressed="false" data-lang="gl" type="button">Galego</button><button aria-pressed="false" data-lang="pt" type="button">Português</button><button aria-pressed="false" data-lang="en" type="button">English</button></div></details></header>
+<script>Certamen.header('home')</script>
 <main id="main">
 <section class="hero" id="inici">
 <div class="hero-inner">
@@ -299,26 +296,7 @@
 </ol>
 </section>
 </main>
-<footer>
-<div class="footer-brand">
-<img alt="" class="brand-logo" height="56" src="assets/logo-certamen-blanc.svg" width="56"/>
-<div>
-<strong>
-      CERTAMEN
-     </strong>
-<small>
-      VILA DE LA SÉNIA
-     </small>
-</div>
-</div>
-<p data-i18n="footer">
-    Certamen Internacional de Bandes de Música Vila de la Sénia
-   </p>
-<a data-nav="contact" href="contacte.html" rel="noopener noreferrer" target="_blank">
-    certamen.cat ↗
-   </a>
-</footer>
-<script src="js/idiomes.js"></script>
+<script>Certamen.footer()</script>
 <script src="js/edicio-2027.js"></script>
 </body>
 </html>

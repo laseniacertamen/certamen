@@ -15,7 +15,7 @@
   const view = document.getElementById('history-view');
   if (!view) return;
 
-  const lang = () => { try { return localStorage.getItem('certamen-lang') || 'ca'; } catch (e) { return 'ca'; } };
+  const lang = () => Certamen.lang();
   const t = () => T[lang()] || T.ca;
   // Normalitza per cercar sense accents, majúscules ni apòstrofs (l’Alcora = l'Alcora = lalcora).
   const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[’'`´‘«»"“”]/g, '').replace(/\s+/g, ' ').trim();
@@ -211,7 +211,7 @@
     const ys = years(); from.value = String(ys[0]); to.value = String(ys[ys.length - 1]);
     render(); q.focus();
   });
-  document.querySelectorAll('.lang-menu [data-lang]').forEach(b => b.addEventListener('click', () => setTimeout(() => { fillSelects(); render(); }, 0)));
+  Certamen.onLang(() => { if (editions.length) { fillSelects(); render(); } });
 
   fetch('data/historia.json').then(r => { if (!r.ok) throw Error('fetch'); return r.json(); }).then(data => {
     editions = data.slice().sort((a, b) => a.any - b.any);
