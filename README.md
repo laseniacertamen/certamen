@@ -1,56 +1,61 @@
-# Web del Certamen — versió editable
+# Web del Certamen Internacional de Bandes de Música Vila de la Sénia
 
-Aquesta carpeta conté la portada i la pàgina «El Certamen». No cal instal·lar cap eina ni generar un ZIP per fer-hi canvis.
+Web estàtica publicada amb GitHub Pages a **https://certamen.cat** (fitxer `CNAME`). No cal instal·lar res ni compilar: cada canvi que arriba a la branca `master` es publica automàticament en un o dos minuts.
 
-## Per on començar
+Idiomes: CA · ES · GL · PT · EN. Totes les llengües comparteixen la mateixa URL i el text es canvia amb JavaScript; l'idioma triat es desa al navegador (`localStorage`).
 
-- `index.html`: estructura i contingut inicial de la portada.
-- `el-certamen.html`: estructura, història i bloc de logotips. Busca el comentari `PATROCINADORS` per trobar-los.
-- `styles.css`: estils generals de la web.
-- `el-certamen.css`: estils específics de la pàgina «El Certamen», inclosa la mida dels logotips (`.sponsor img`).
-- `script.js` i `el-certamen.js`: traduccions i interaccions de cada pàgina. Les claus `data-t` dels HTML es corresponen amb les traduccions dels JS.
-- `assets/`: fotografies i logotips. Els fitxers `logo-diputacio.png` i `logo-generalitat-cultura.png` són els que has facilitat.
+## Pàgines
 
-## Canviar un logotip
+| Fitxer | Contingut | Traduccions i interaccions |
+|---|---|---|
+| `index.html` | Portada: edició 2027, participació, resultats, història, actualitat | `js/script.js`, `js/edicio-2027.js` |
+| `el-certamen.html` | Història, organització i patrocinadors | `js/el-certamen.js` |
+| `inscripcions.html` | Informació i formulari d'inscripció | `js/formularis.js`, `js/formularis-traduccions.js`, `js/edicio-2027.js` |
+| `programa.html` | Programa i obres obligades | `js/script.js`, `js/edicio-2027.js` |
+| `historia.html` | Totes les edicions, premis, jurats i gravacions, amb cercador | `js/historia.js`, `js/historia-cercador.js`, `data/historia.json` |
+| `territori.html` | La Sénia i el territori | `js/territori.js` |
+| `faq.html` | Preguntes freqüents | `js/faq.js` |
+| `contacte.html` | Formulari de contacte | `js/formularis.js`, `js/formularis-traduccions.js` |
+| `politica-privacitat.html`, `politica-cookies.html` | Textos legals | inline |
+| `cert/index.html` | Redirecció de l'adreça antiga `/cert/` cap a la portada (`noindex`) | — |
 
-1. Copia la imatge nova dins `assets/`.
-2. Obre `el-certamen.html`, busca `PATROCINADORS` i canvia el valor `src` de la imatge corresponent.
-3. Desa el fitxer i actualitza el navegador. Si mantens el mateix nom del fitxer, només cal substituir la imatge.
+Fitxers comuns a totes les pàgines:
 
-## Provar al mòbil
+- `css/estils.css`: estils generals. `css/historia.css` i `css/cookies.css`: estils específics.
+- `js/idiomes.js`: selector d'idioma, textos del menú principal i enllaços a xarxes socials.
+- `js/cookies.js`: avís de cookies. Google Analytics només es carrega si l'usuari ho accepta.
 
-Des de la carpeta que conté `index.html`, executa `python3 -m http.server 8000 --bind 0.0.0.0`. Al mòbil, connectat a la mateixa xarxa, obre `http://IP_DEL_PORTATIL:8000` (amb **http**, no https).
+## Canvis habituals
 
-## Notes
+**Textos.** Els elements traduïbles porten un atribut (`data-i18n`, `data-t`, `data-faq`…) amb una clau. El text de cada idioma és al fitxer JS de la pàgina (taula de dalt). Quan afegeixis una clau, afegeix-la a **les cinc llengües**: si en falta una, en canviar d'idioma es queda el text anterior.
 
-Ordre de llengües: CA · ES · GL · PT · EN. Les dades d'edicions, inscripcions, programa i resultats de la portada encara són provisionals. Els logotips de les empreses col·laboradores s'afegiran quan estiguin disponibles.
+**Menú principal.** És copiat a cada fitxer HTML: si hi afegeixes o treus un enllaç, fes-ho a totes les pàgines. Els textos del menú són a `js/idiomes.js`.
 
+**Resultats de la portada.** Es generen sols a partir de `data/historia.json`: la portada mostra la darrera edició que tingui el camp `premiades` omplert (bandes, direcció i jurat).
 
-## Formularis (NOVETAT)
+**Calendari d'Actualitat (portada).** És a `index.html` (busca `ACTUALITAT`) i les traduccions a `js/script.js` (`newsItem…`). Cada fita té un `data-until`; quan la data passa, es mostra atenuada.
 
-- `contacte.html`: consulta general, disponible tot l’any.
-- `inscripcions.html`: pàgina d’inscripció, inicialment amb **inscripcions tancades**.
-- `formularis.css`: estils dels dos formularis.
-- `formularis-traduccions.js`: textos en CA, ES, GL, PT i EN.
-- `formularis.js`: configuració del termini i de l’enviament.
-- `politica-privacitat.html`: **marcador provisional**; cal substituir-lo per la política real abans de publicar els formularis.
+**Història.** Les dades de cada edició són a `data/historia.json`. `data/playlists-pendents.json` és material de treball per relacionar les llistes de YouTube amb les edicions.
 
-**IMPORTANT: els formularis encara NO envien correus.** Una web estàtica necessita un servei receptor (p. ex. Formspree) o un servidor propi. Quan l’organització tingui dos endpoints reals, posa’ls a `CONFIG.contacteEndpoint` i `CONFIG.inscripcionsEndpoint` dins `formularis.js`. Per obrir inscripcions, canvia `CONFIG.inscripcionsObertes` a `true` només dins del termini oficial. Abans d’activar res, revisa la política de privacitat, el text de les bases i prova els dos enviaments reals.
+**Edició 2027 i bases.** Dates i textos a `js/edicio-2027.js`. Els PDF de les bases són a `doc/` (un per idioma); els enllaços baixen automàticament el de l'idioma actiu.
 
-Si més endavant calen documents adjunts, caldrà comprovar que el servei receptor admet fitxers i afegir els camps corresponents. No s’han afegit encara perquè no s’ha decidit.
+**Logotips i imatges.** A `assets/`. El logo de la web és `logo-certamen-blanc.svg`; la icona de la pestanya, `favicon.svg` (amb `favicon.png` i `favicon_32.png` com a alternatives). La imatge que es mostra en compartir la web a les xarxes és `og-certamen-2027.jpg` (1200×630): cal renovar-la per a cada edició. Els patrocinadors són a `el-certamen.html` (busca `PATROCINADORS`).
 
-## Botó destacat a inscripcions tancades
+**Pàgines noves.** Afegeix-les també a `sitemap.xml`, amb `canonical`, `description` i `og:url` propis.
 
-A `inscripcions.html`, el bloc `registration-contact` mostra un botó gran que enllaça a `contacte.html`. Els textos per a les cinc llengües són a `formularis-traduccions.js` i l’estil és a `formularis.css`. Quan activeu les inscripcions, aquest bloc s’oculta amb tot l’avís de termini tancat.
+## Formularis
 
+Els formularis de contacte i d'inscripció envien les dades a dos scripts de Google Apps Script, configurats a `CONFIG` dins `js/formularis.js`:
 
-## Actualització XIX Certamen 2027
-- Portada i Participació: dates del certamen i termini d'inscripció, en cinc idiomes. Textos centralitzats a `js/edicio-2027.js`.
-- FAQ: respostes actualitzades segons les bases de 2027 a `js/faq.js`.
-- Errades de l'original corregides amb confirmació de l'usuari: notificació abans del 22/01/2027 i llista definitiva abans del 15/03/2027.
-- IMPORTANT: el formulari d'inscripció continua tancat perquè `js/formularis.js` no té configurat `inscripcionsEndpoint`. Abans d'obrir el termini, configureu i proveu aquest endpoint i activeu `inscripcionsObertes`.
-- Les bases demanen proposta de repertori, llistat de músics i fiança: el formulari actual no recull tota aquesta informació; cal adaptar-lo abans de publicar inscripcions reals.
+- `contacteEndpoint` i `inscripcionsEndpoint`: URL de cada script.
+- `inscripcionsObertes`: posa-ho a `false` per tancar les inscripcions. A més, el formulari només es mostra dins del termini definit a `dinsTermini` (ara, del 19/10/2026 al 31/12/2026 a les 12.00 h).
 
+## Provar en local
 
-Bases 2027: els PDF públics es troben a l’arrel (ca, es, gl, pt, en). Les versions Word no es publiquen. La versió catalana és la de referència.
-# Fitxers de la web del certamen internacional de bandes de música Vila de la Sénia
+Des de la carpeta del repositori:
+
+```bash
+python3 -m http.server 8000
+```
+
+i obre http://localhost:8000. Cal un servidor (no obrir l'HTML directament) perquè algunes pàgines carreguen `data/historia.json`. Per provar-ho al mòbil, afegeix `--bind 0.0.0.0` i obre `http://IP_DEL_PORTATIL:8000` des del mòbil connectat a la mateixa xarxa.

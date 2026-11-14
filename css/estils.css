@@ -1634,3 +1634,24 @@ footer>*  {
   .header .nav { order: 5; }
   .header .langs[open] .lang-menu { right: 0; left: auto; }
 }
+
+/* PORTADA · Resultats (darrera edició) i Actualitat (calendari) */
+.results-latest { margin: 2rem 0 1.5rem; padding: 1.4rem 1.6rem; max-width: 700px; background: #fff; border-left: 4px solid var(--red); border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+.results-latest p { margin: 0; }
+.results-kicker { font-size: .8rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; color: var(--red); }
+.results-label { margin-top: .9rem !important; font-size: .95rem; color: var(--muted); }
+.results-bands { list-style: none; margin: .3rem 0 0; padding: 0; }
+.results-bands li { margin: .25rem 0; font-size: clamp(1.15rem, 2.2vw, 1.45rem); line-height: 1.3; }
+.results-conductor { display: block; font-size: .95rem; color: var(--muted); }
+.info-section .results-latest .results-jury { margin-top: .9rem; font-size: .95rem; color: var(--muted); }
+.news-heading { margin: 2.2rem 0 1rem; font-size: 1.35rem; }
+.news-timeline { list-style: none; margin: 0 0 1rem; padding: 0; max-width: 700px; border-left: 2px solid #d9d9d6; }
+.news-item { position: relative; margin: 0 0 1.4rem; padding-left: 1.4rem; }
+.news-item::before { content: ""; position: absolute; left: -7px; top: .35rem; width: 12px; height: 12px; border-radius: 50%; background: var(--red); }
+.news-item p { margin: 0; }
+.info-section .news-item .news-date { font-size: .85rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--red); }
+.info-section .news-item .news-text { margin-top: .2rem; font-size: 1.05rem; color: inherit; }
+.news-item .text-link { display: inline-block; margin-top: .35rem; }
+.news-item.is-past { opacity: .5; }
+.news-item.is-past::before { background: #9a9a9a; }
+.news-item.is-past .text-link { display: none; }

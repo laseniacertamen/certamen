@@ -12,7 +12,7 @@
 <link href="css/estils.css" rel="stylesheet"/>
 <script defer="" src="js/script.js">
 </script>
-<meta content="ca" name="language"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes." name="description"/><meta content="Agrupació Musical Senienca" name="author"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia" property="og:title"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes." property="og:description"/><meta content="website" property="og:type"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia" property="og:site_name"/><meta content="ca_ES" property="og:locale"/><meta content="ES-CT" name="geo.region"/><meta content="La Sénia" name="geo.placename"/><link rel="canonical" href="https://certamen.cat/"/><meta property="og:url" content="https://certamen.cat/"/><meta property="og:image" content="https://certamen.cat/assets/logo-silver.png"/><!-- CA/ES/GL/PT/EN comparteixen actualment la mateixa URL i es tradueixen amb JavaScript; per això no s’afegeixen hreflang amb URLs inexistents. --><script type="application/ld+json">{
+<meta content="ca" name="language"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes." name="description"/><meta content="Agrupació Musical Senienca" name="author"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia" property="og:title"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia: participació, programa, resultats, història, actualitat i informació per a bandes." property="og:description"/><meta content="website" property="og:type"/><meta content="Certamen Internacional de Bandes de Música Vila de la Sénia" property="og:site_name"/><meta content="ca_ES" property="og:locale"/><meta content="ES-CT" name="geo.region"/><meta content="La Sénia" name="geo.placename"/><link rel="canonical" href="https://certamen.cat/"/><meta property="og:url" content="https://certamen.cat/"/><meta property="og:image" content="https://certamen.cat/assets/og-certamen-2027.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Certamen Internacional de Bandes de Música Vila de la Sénia · 10 i 11 d’abril de 2027"/><meta name="twitter:card" content="summary_large_image"/><!-- CA/ES/GL/PT/EN comparteixen actualment la mateixa URL i es tradueixen amb JavaScript; per això no s’afegeixen hreflang amb URLs inexistents. --><script type="application/ld+json">{
   "@context": "https://schema.org",
 "url": "https://certamen.cat/",
   "@graph": [
@@ -243,6 +243,14 @@
 <p data-i18n="resultsText">
      Consulta els resultats oficials i els reconeixements de les edicions del Certamen.
     </p>
+<!-- RESULTATS: es genera amb la darrera edició amb bandes premiades de data/historia.json (js/script.js). -->
+<article class="results-latest" id="results-latest" hidden>
+<p class="results-kicker"><span data-i18n="resultsLatest">Darrera edició</span> · <span data-results="edition"></span></p>
+<p class="results-label" data-i18n="resultsAwarded" data-results="awarded-label">Banda premiada</p>
+<ul class="results-bands" data-results="bands"></ul>
+<p class="results-jury" data-results="jury-row"><span data-i18n="resultsJury">Jurat</span>: <span data-results="jury"></span></p>
+</article>
+<a class="text-link" href="historia.html" data-i18n="resultsMore">Totes les edicions, premis i gravacions →</a>
 </section>
 <section class="section info-section" id="historia">
 <p class="eyebrow red" data-i18n="history">
@@ -268,6 +276,27 @@
 <p data-i18n="newsText">
      Aquí trobaràs les novetats i els anuncis de les pròximes edicions.
     </p>
+<!-- ACTUALITAT: calendari de l'edició 2027. Els elements amb data passada es mostren atenuats (js/script.js). -->
+<h3 class="news-heading" data-i18n="newsCalendar">Calendari de l’edició 2027</h3>
+<ol class="news-timeline">
+<li class="news-item" data-until="2026-12-31T12:00:00+01:00">
+<p class="news-date" data-i18n="newsItem1Date">Fins al 31 de desembre de 2026 (12.00 h)</p>
+<p class="news-text" data-i18n="newsItem1Text">Inscripcions obertes per a les bandes que vulguin participar en el XIX Certamen.</p>
+<a class="text-link" href="inscripcions.html" data-i18n="newsItem1Link">Inscriu la teva banda →</a>
+</li>
+<li class="news-item" data-until="2027-01-22T00:00:00+01:00">
+<p class="news-date" data-i18n="newsItem2Date">Abans del 22 de gener de 2027</p>
+<p class="news-text" data-i18n="newsItem2Text">Notificació a les bandes seleccionades provisionalment (fins a 6).</p>
+</li>
+<li class="news-item" data-until="2027-01-29T00:00:00+01:00">
+<p class="news-date" data-i18n="newsItem3Date">Abans del 29 de gener de 2027</p>
+<p class="news-text" data-i18n="newsItem3Text">Formalització de la inscripció: fiança i documentació de la banda.</p>
+</li>
+<li class="news-item" data-until="2027-04-12T00:00:00+02:00">
+<p class="news-date" data-i18n="newsItem4Date">10 i 11 d’abril de 2027</p>
+<p class="news-text" data-i18n="newsItem4Text">XIX Certamen a la Casa de la Cultura de la Sénia.</p>
+</li>
+</ol>
 </section>
 </main>
 <footer>
