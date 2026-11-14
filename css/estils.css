@@ -1082,15 +1082,6 @@ footer>*  {
   margin:8px 0}
 .about-end .eyebrow {
   color:#ffcf43}
-.about-footer {
-  padding:28px 30px;
-  display:flex;
-  justify-content:space-between;
-  gap:16px;
-  flex-wrap:wrap;
-  font-size:.88rem}
-.about-footer a {
-  color:inherit}
 @media(max-width:780px) {
   .about-hero {
   min-height:330px;
@@ -1114,8 +1105,6 @@ footer>*  {
   margin-top:14px}
 .sponsor {
   min-width:145px}
-.about-footer {
-  padding:25px 22px}
 }
 
 
@@ -1137,7 +1126,6 @@ footer>*  {
 .form-hint, .form-status { font-size: .9rem; }
 .form-status:not(:empty) { padding: 14px; border-left: 4px solid #b42020; background: #fff0f0; }
 .registration-notice { background: white; border-left: 5px solid #b42020; padding: 24px; margin-top: 28px; border-radius: 8px; }
-.form-footer { padding: 30px 24px; text-align: center; background: #15171c; color: white; }
 /* hidden ha de prevaldre fins i tot si altres regles assignen display. */
 [hidden] { display: none !important; }
 @media(max-width:650px) { .form-page { padding-top: 120px; } .certamen-form { padding: 20px; } }
@@ -1655,3 +1643,9 @@ footer>*  {
 .news-item.is-past { opacity: .5; }
 .news-item.is-past::before { background: #9a9a9a; }
 .news-item.is-past .text-link { display: none; }
+
+/* Peu comú (generat per js/comu.js) */
+footer > p[data-common="footerName"] { margin-bottom: 20px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-bottom: 20px; }
+.footer-links a { color: var(--yellow); text-decoration: none; }
+.footer-links a:hover, .footer-links a:focus-visible { text-decoration: underline; text-underline-offset: 4px; }

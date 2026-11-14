@@ -19,9 +19,6 @@ function canviaIdioma(idioma) {
   });
   const privacitatInscripcio = document.querySelector('#registration-form [data-f="privacyConsent"]');
   if (privacitatInscripcio && textos.registrationPrivacyConsent) privacitatInscripcio.textContent = textos.registrationPrivacyConsent;
-  document.querySelectorAll('[data-lang]').forEach(boto =>
-    boto.setAttribute('aria-pressed', String(boto.dataset.lang === idiomaActual)));
-  try { localStorage.setItem('certamen-lang', idiomaActual); } catch (_) {}
 }
 
 // El formulari d'inscripció està ocult fora de termini. L'endpoint és obligatori.
@@ -209,13 +206,5 @@ if (inscripcio) inscripcio.addEventListener('submit', event => {
   if (inscripcio.reportValidity()) enviaFormulari(inscripcio, CONFIG.inscripcionsEndpoint);
 });
 
-document.querySelectorAll('[data-lang]').forEach(boto =>
-  boto.addEventListener('click', () => canviaIdioma(boto.dataset.lang)));
-const menu = document.querySelector('.menu-toggle');
-const nav = document.querySelector('#nav');
-menu.addEventListener('click', () => {
-  const obert = nav.classList.toggle('open');
-  menu.setAttribute('aria-expanded', String(obert));
-});
-try { canviaIdioma(localStorage.getItem('certamen-lang') || 'ca'); }
-catch (_) { canviaIdioma('ca'); }
+// L'idioma i el menú del mòbil els gestiona js/comu.js.
+Certamen.onLang(canviaIdioma);

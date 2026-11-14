@@ -286,41 +286,10 @@ function setLanguage(lang) {
         }
     });
 
-    document.querySelectorAll('[data-lang]').forEach((button) => {
-        button.setAttribute('aria-pressed', String(button.dataset.lang === lang));
-    });
-
-    document.title = dictionary.footer;
-
-    // Conservem l'idioma perquè les pàgines de formularis l'obrin en la mateixa llengua.
-    try { localStorage.setItem('certamen-lang', lang); } catch (_) {}
 }
 
-const menuButton = document.querySelector('.menu-toggle');
-const navigation = document.querySelector('.nav');
-
-document.querySelectorAll('[data-lang]').forEach((button) => {
-    button.addEventListener('click', () => setLanguage(button.dataset.lang));
-});
-
-menuButton.addEventListener('click', () => {
-    const isOpen = navigation.classList.toggle('open');
-    menuButton.setAttribute('aria-expanded', String(isOpen));
-});
-
-navigation.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-        navigation.classList.remove('open');
-        menuButton.setAttribute('aria-expanded', 'false');
-    });
-});
-
-
-// Recuperem l'idioma seleccionat en una visita anterior o en una altra pàgina.
-try {
-    const savedLanguage = localStorage.getItem('certamen-lang');
-    if (savedLanguage && translations[savedLanguage]) setLanguage(savedLanguage);
-} catch (_) {}
+// L'idioma, el títol de la pestanya i el menú del mòbil els gestionen js/comu.js i el <head> de la pàgina.
+Certamen.onLang(setLanguage);
 
 
 // PORTADA · RESULTATS: mostra la darrera edició amb bandes premiades de data/historia.json.
@@ -328,14 +297,11 @@ try {
 (function () {
     const card = document.getElementById('results-latest');
     if (!card) return;
-    const currentLanguage = () => {
-        try { const l = localStorage.getItem('certamen-lang'); return translations[l] ? l : 'ca'; } catch (_) { return 'ca'; }
-    };
     let latest = null;
 
     function render() {
         if (!latest) return;
-        const words = translations[currentLanguage()];
+        const words = translations[Certamen.lang()];
         const conductors = {};
         (latest.participants || []).forEach((group) => (group.bandes || []).forEach(([band, conductor]) => { conductors[band] = conductor; }));
         const bands = latest.premiades.flatMap((group) => group.bandes || []);
@@ -372,7 +338,7 @@ try {
         })
         .catch(() => {});
 
-    document.querySelectorAll('[data-lang]').forEach((button) => button.addEventListener('click', () => setTimeout(render, 0)));
+    Certamen.onLang(render);
 })();
 
 // PORTADA · ACTUALITAT: atenua les fites del calendari que ja han passat.

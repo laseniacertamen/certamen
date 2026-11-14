@@ -7,7 +7,7 @@
 <title>Participació i inscripcions | Certamen Vila de la Sénia</title>
 <link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="assets/favicon_32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/favicon.png" rel="apple-touch-icon"/>
 <link href="css/estils.css" rel="stylesheet"/>
-<script defer="" src="js/formularis-traduccions.js">
+<script src="js/comu.js"></script><script defer="" src="js/formularis-traduccions.js">
 </script>
 <script defer="" src="js/formularis.js">
 </script>
@@ -40,7 +40,7 @@
 // Manté les metadades del navegador coherents amb l'idioma seleccionat.
 // Nota SEO: tots els idiomes comparteixen URL; per indexar-los per separat caldrien URLs pròpies.
 (() => {
-  const seo = {"ca": {"title": "Participació i inscripcions | Certamen Vila de la Sénia", "description": "Consulta la informació de participació i inscripció al Certamen Internacional de Bandes de Música Vila de la Sénia i prepara la sol·licitud de la teva banda.", "locale": "ca_ES"}, "es": {"title": "Participación e inscripciones | Certamen Vila de la Sénia", "description": "Consulta la información de participación e inscripción en el Certamen Internacional de Bandas de Música Vila de la Sénia y prepara la solicitud de tu banda.", "locale": "es_ES"}, "gl": {"title": "Participació i inscripcions | Certamen Vila de la Sénia", "description": "Consulta la informació de participació i inscripció al Certamen Internacional de Bandes de Música Vila de la Sénia i prepara la sol·licitud de la teva banda.", "locale": "gl_ES"}, "pt": {"title": "Participació i inscripcions | Certamen Vila de la Sénia", "description": "Consulta la informació de participació i inscripció al Certamen Internacional de Bandes de Música Vila de la Sénia i prepara la sol·licitud de la teva banda.", "locale": "pt_PT"}, "en": {"title": "Participation and registration | Vila de la Sénia Competition", "description": "Find participation and registration information for the Vila de la Sénia International Wind Band Competition and prepare your band’s application.", "locale": "en_GB"}};
+  const seo = {"ca": {"title": "Participació i inscripcions | Certamen Vila de la Sénia", "description": "Consulta la informació de participació i inscripció al Certamen Internacional de Bandes de Música Vila de la Sénia i prepara la sol·licitud de la teva banda.", "locale": "ca_ES"}, "es": {"title": "Participación e inscripciones | Certamen Vila de la Sénia", "description": "Consulta la información de participación e inscripción en el Certamen Internacional de Bandas de Música Vila de la Sénia y prepara la solicitud de tu banda.", "locale": "es_ES"}, "gl": {"title": "Participación e inscricións | Certame Vila de la Sénia", "description": "Consulta a información de participación e inscrición no Certame Internacional de Bandas de Música Vila de la Sénia e prepara a solicitude da túa banda.", "locale": "gl_ES"}, "pt": {"title": "Participação e inscrições | Certame Vila de la Sénia", "description": "Consulte a informação de participação e inscrição no Certame Internacional de Bandas de Música Vila de la Sénia e prepare a candidatura da sua banda.", "locale": "pt_PT"}, "en": {"title": "Participation and registration | Vila de la Sénia Competition", "description": "Find participation and registration information for the Vila de la Sénia International Wind Band Competition and prepare your band’s application.", "locale": "en_GB"}};
   function applySeo(lang) {
     const data = seo[lang] || seo.ca;
     document.documentElement.lang = lang;
@@ -52,17 +52,14 @@
     set('meta[property="og:description"]', data.description);
     set('meta[property="og:locale"]', data.locale);
   }
-  document.addEventListener('click', e => {
-    const button = e.target.closest('[data-lang]');
-    if (button) applySeo(button.dataset.lang);
-  });
+  Certamen.onLang(applySeo);
 })();
 </script><link rel="stylesheet" href="css/cookies.css"><script defer src="js/cookies.js"></script></head>
 <body>
 <a class="skip" href="#main">
    Salta al contingut
   </a>
-<header class="header"><a data-nav="home" aria-label="Certamen Vila de la Sénia" class="brand" href="index.html"><img alt="" class="brand-logo" height="56" src="assets/logo-certamen-blanc.svg" width="56"/><span><strong>CERTAMEN</strong><small>VILA DE LA SÉNIA</small></span></a><button aria-controls="nav" aria-expanded="false" class="menu-toggle" type="button">Menú</button><nav aria-label="Navegació principal" class="nav" id="nav"><a data-nav="home" href="index.html">Inici</a><a data-nav="contest" href="el-certamen.html">El Certamen</a><a data-nav="participation" aria-current="page" href="inscripcions.html">Participació</a><a data-nav="program" href="programa.html">Programa</a><a data-nav="results" href="index.html#resultats">Resultats</a><a data-nav="news" href="index.html#noticies">Actualitat</a><a data-nav="history" href="historia.html">Història</a><a data-nav="territory" href="territori.html">La Sénia i el territori</a><a data-nav="faq" href="faq.html">FAQ</a><a data-nav="contact" href="contacte.html">Contacte</a></nav><details aria-label="Idioma" class="langs"><summary><span class="lang-current">CA</span><span aria-hidden="true" class="lang-arrow">▾</span></summary><div class="lang-menu"><button aria-pressed="true" data-lang="ca" type="button">Català</button><button aria-pressed="false" data-lang="es" type="button">Castellano</button><button aria-pressed="false" data-lang="gl" type="button">Galego</button><button aria-pressed="false" data-lang="pt" type="button">Português</button><button aria-pressed="false" data-lang="en" type="button">English</button></div></details></header>
+<script>Certamen.header('participation')</script>
 <main class="form-page" id="main">
 <div class="form-container">
 <p class="eyebrow red" data-f="registration">
@@ -201,25 +198,21 @@
 </form>
 </div>
 </main>
-<footer class="form-footer">
-   Certamen Internacional de Bandes de Música Vila de la Sénia
-  </footer>
-<script src="js/idiomes.js"></script>
+<script>Certamen.footer()</script>
 <script src="js/edicio-2027.js"></script>
 
 <script>
 // Primera capa informativa multilingüe, independent de l'enviament dels formularis.
 (function () {
 const notices = {"ca":["Responsable: Agrupació Musical Senienca (G43213099).","Finalitat: respondre la consulta.","Finalitat: gestionar la sol·licitud de participació.","Base jurídica: gestió de la sol·licitud i, quan correspongui, interès legítim.","Dades gestionades mitjançant serveis de Google; cal verificar-ne les garanties contractuals i les transferències internacionals.","Drets: info@certamen.cat. Més informació a la política de privacitat.","He llegit la informació sobre protecció de dades."],"es":["Responsable: Agrupació Musical Senienca (G43213099).","Finalidad: responder a la consulta.","Finalidad: gestionar la solicitud de participación.","Base jurídica: gestión de la solicitud y, cuando corresponda, interés legítimo.","Datos gestionados mediante servicios de Google; deben verificarse sus garantías contractuales y transferencias internacionales.","Derechos: info@certamen.cat. Más información en la política de privacidad.","He leído la información sobre protección de datos."],"gl":["Responsable: Agrupació Musical Senienca (G43213099).","Finalidade: responder á consulta.","Finalidade: xestionar a solicitude de participación.","Base xurídica: xestión da solicitude e, cando corresponda, interese lexítimo.","Datos xestionados mediante servizos de Google; cómpre verificar as garantías contractuais e as transferencias internacionais.","Dereitos: info@certamen.cat. Máis información na política de privacidade.","Lin a información sobre protección de datos."],"pt":["Responsável: Agrupació Musical Senienca (G43213099).","Finalidade: responder ao pedido.","Finalidade: gerir a candidatura.","Fundamento jurídico: gestão do pedido e, quando aplicável, interesse legítimo.","Dados tratados através dos serviços Google; as garantias contratuais e transferências internacionais devem ser verificadas.","Direitos: info@certamen.cat. Mais informações na política de privacidade.","Li a informação sobre proteção de dados."],"en":["Controller: Agrupació Musical Senienca (G43213099).","Purpose: respond to your enquiry.","Purpose: manage your application.","Legal basis: handling the request and, where applicable, legitimate interests.","Data is handled using Google services; contractual safeguards and international transfers require verification.","Rights: info@certamen.cat. See the privacy policy for details.","I have read the data protection information."]};
-function renderNotice() {
-  const lang = (function(){try{return localStorage.getItem('certamen-lang') || localStorage.getItem('certamenLang') || 'ca';}catch(e){return 'ca';}})();
+function renderNotice(lang) {
   const n = notices[lang] || notices.ca;
   document.querySelectorAll('[data-privacy-notice]').forEach(el => {
     const registration = el.dataset.privacyNotice === 'registration';
     el.innerHTML = '<strong>'+n[0]+'</strong> '+(registration?n[2]:n[1])+' '+n[3]+' '+n[4]+' '+n[5];
   });
 }
-document.addEventListener('DOMContentLoaded', function () { renderNotice(); document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', function () { setTimeout(renderNotice, 0); })); });
+Certamen.onLang(renderNotice);
 })();
 </script>
 </body>
