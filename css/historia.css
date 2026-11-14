@@ -12,3 +12,28 @@
 
 /* Títol de l'edició: més presència que els apartats interiors */
 #history-view > h2{font-size:clamp(1.85rem,3.6vw,2.5rem);font-weight:750;line-height:1.2;margin-bottom:1.35rem}
+
+/* Cercador de la història */
+.history-search{display:grid;gap:1rem;margin-top:2rem;padding:1.25rem;border:1px solid rgba(150,150,150,.3);border-radius:14px;background:rgba(150,150,150,.06)}
+.history-search label{display:flex;flex-direction:column;gap:.35rem}
+.history-search-label{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#a52a38}
+.history-search input,.history-search select{width:100%;border:1px solid #a9a9a9;border-radius:8px;padding:.7rem .8rem;font:inherit;color:#15171c;background:#fff}
+.history-search input{font-size:1.1rem}
+.history-search input:focus,.history-search select:focus{outline:3px solid #d7a531;outline-offset:1px}
+.history-search-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr));gap:.8rem;align-items:end}
+.history-search-clear{padding:.7rem 1rem;border:1px solid #a52a38;border-radius:8px;background:transparent;color:#a52a38;font-weight:700;cursor:pointer}
+.history-search-clear:hover,.history-search-clear:focus-visible{background:#a52a38;color:#fff}
+.history-search-status{margin:1rem 0 0;font-weight:700;color:#555}
+.history-search-status:empty{display:none}
+.history-results{display:grid;gap:.9rem;margin-top:1rem}
+.history-results .history-grid{margin-top:0}
+.history-result{padding:1rem 1.15rem;border-radius:12px;background:rgba(150,150,150,.075);border-left:3px solid #a52a38}
+.history-result-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.4rem .8rem}
+.history-result-head strong{font-size:1.1rem}
+.history-tag{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:.2rem .55rem;border-radius:999px;background:rgba(165,42,56,.1);color:#a52a38;white-space:nowrap}
+.info-section .history-result-sub{margin:.3rem 0 0;font-size:.95rem;color:#555}
+.history-result-years{list-style:none;padding:0;margin:.75rem 0 0;display:grid;gap:.4rem}
+.history-result-years li{display:flex;flex-wrap:wrap;gap:.2rem .7rem;align-items:baseline;font-size:.95rem}
+.history-result-years a{font-weight:700;color:#a52a38;text-decoration:underline;text-underline-offset:3px;min-width:3.2rem}
+.history-result-years a:hover,.history-result-years a:focus-visible{color:#c44752}
+.history-result-years span{opacity:.85}
