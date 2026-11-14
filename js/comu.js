@@ -78,7 +78,7 @@
       footerLinks: 'Ligações do rodapé', privacy: 'Política de privacidade', cookies: 'Política de cookies'
     },
     en: {
-      nav: { home: 'Home', contest: 'The Competition', participation: 'Participation', program: 'Programme', results: 'Results', news: 'News', history: 'History', territory: 'La Sénia and the surrounding area', faq: 'FAQ', contact: 'Contact' },
+      nav: { home: 'Home', contest: 'The Competition', participation: 'Participation', program: 'Programme', results: 'Results', news: 'News', history: 'History', territory: 'Around La Sénia', faq: 'FAQ', contact: 'Contact' },
       menu: 'Menu', navLabel: 'Main navigation', langLabel: 'Language', socialLabel: 'Social media', newTab: 'opens in a new tab',
       follow: 'Follow us', footerName: 'International Wind Band Competition Vila de la Sénia',
       footerLinks: 'Footer links', privacy: 'Privacy policy', cookies: 'Cookie policy'
